@@ -1229,7 +1229,7 @@
   <script>
         const defaultConfig = {
             platform_title: "منصة QDU للاختبار التفاعلي",
-            subject_name: "مادة الفيزياء الشعاعية",
+            subject_name: "مادة الفحوصات الشعاعية",
             student_name: "مقتدى الكناني"
         };
 
@@ -1240,201 +1240,159 @@
                 icon: "📘",
                 questions: [
                     {
-                        question: "1. What is the meaning of the Greek word 'tomos' in Tomography?",
-                        translation: "شنو معنى الكلمة اليونانية 'tomos' بكلمة Tomography؟",
-                        options: ["A) Drawing", "B) Computer", "C) Slice or section", "D) Rotation"],
-                        correct: 2,
-                        explanation: "كلمة tomos باليوناني معناها (شريحة أو مقطع)، ولهذا نسميه التصوير المقطعي."
-                    },
-                    {
-                        question: "2. Which technique is used to generate 3D images from a large series of 2D X-ray images?",
-                        translation: "شنو التقنية اللي نستخدمها حتى نولد صور ثلاثية الأبعاد من مجموعة صور 2D؟",
-                        options: ["A) Manual drawing", "B) Digital geometry processing", "C) Chemical processing", "D) Thermal imaging"],
-                        correct: 1,
-                        explanation: "نستخدم المعالجة الهندسية الرقمية (Digital geometry processing) حتى نجمع الصور ونطلع بصورة 3D."
-                    },
-                    {
-                        question: "3. Computed Tomography (CT) is also commonly known as:",
-                        translation: "بشنو هم ينعرف التصوير المقطعي المحوسب (CT)؟",
-                        options: ["A) Traditional Radiography", "B) Computed axial tomography scan", "C) Magnetic Resonance Imaging", "D) Ultrasound slicing"],
-                        correct: 1,
-                        explanation: "الـ CT كان يُعرف سابقاً بالـ CAT scan (التصوير المقطعي المحوري)."
-                    },
-                    {
-                        question: "4. How does the radiation dose in a CT procedure compare to conventional radiography?",
-                        translation: "شلون تقارن جرعة الإشعاع بالـ CT ويه الأشعة التقليدية؟",
-                        options: ["A) CT dose is relatively lower", "B) CT dose is exactly the same", "C) CT dose is relatively higher", "D) CT does not use radiation"],
-                        correct: 2,
-                        explanation: "بالـ CT الجرعة تكون أعلى نسبياً لأن الجهاز ياخذ صور هواية ومن زوايا مختلفة."
-                    },
-                    {
-                        question: "5. CT imaging is often referred to as 'cross-sectional imaging'. What does this mean?",
-                        translation: "الـ CT يسموه (التصوير المقطعي العرضي). شنو يعني هذا؟",
-                        options: ["A) It only images the skin surface", "B) It produces images of specific 'slices' of the body", "C) It only captures the bones in 2D", "D) It uses sound waves to cross the body"],
-                        correct: 1,
-                        explanation: "هذا يعني إن الجهاز يطلع صور عبارة عن شرائح (مَقاطع) محددة من الجسم مو مجرد صورة مسطحة."
-                    },
-                    {
-                        question: "6. Why do bones and teeth appear white on a traditional X-ray image?",
-                        translation: "ليش العظام والأسنان تطلع بيضة بصورة الأشعة العادية؟",
-                        options: ["A) Because they reflect all radiation", "B) Because they contain high levels of calcium that block radiation", "C) Because they allow radiation to pass through easily", "D) Because the film is naturally white"],
-                        correct: 1,
-                        explanation: "لأنها تحتوي على نسبة عالية من الكالسيوم اللي يمنع الإشعاع من العبور (يوهن الإشعاع)."
-                    },
-                    {
-                        question: "7. In a radiograph, how do soft tissues appear?",
-                        translation: "بالأشعة العادية، الأنسجة الرخوة شلون تطلع؟",
-                        options: ["A) White", "B) Gray or black", "C) Bright yellow", "D) Transparent"],
-                        correct: 1,
-                        explanation: "الأنسجة الرخوة تسمح بعبور الإشعاع أكثر فتبين بلون رصاصي أو أسود (Gray or black)."
-                    },
-                    {
-                        question: "8. Which of the following is 'ideal' for spotting narrowed joint spaces and dislocations?",
-                        translation: "شنو هو الفحص المثالي حتى نكتشف الخلع وضيق المفاصل؟",
-                        options: ["A) MRI", "B) Traditional X-ray", "C) Ultrasound", "D) Nuclear medicine"],
-                        correct: 1,
-                        explanation: "الأشعة العادية (Traditional X-ray) ممتازة ومثالية جداً لفحص العظام والمفاصل والخلع."
-                    },
-                    {
-                        question: "9. What is a major advantage of a CT scan over a simple X-ray study?",
-                        translation: "شنو الميزة الجبيرة للـ CT مقارنة بالأشعة البسيطة؟",
-                        options: ["A) It is slower and more relaxed", "B) It offers 360-degree views and higher detail", "C) It uses no computer processing", "D) It only provides 2D images"],
-                        correct: 1,
-                        explanation: "الـ CT يفتر 360 درجة وينطي صور مقطعية بيها تفاصيل أعلى بكثير من الأشعة العادية."
-                    },
-                    {
-                        question: "10. Which imaging method is better at capturing bones, soft tissues, and blood vessels all at the same time?",
-                        translation: "يا طريقة تصوير أحسن بلقط العظام والأنسجة والأوعية الدموية بوقت واحد؟",
-                        options: ["A) Traditional X-ray", "B) CT scan", "C) Electrocardiogram (ECG)", "D) Microscopy"],
-                        correct: 1,
-                        explanation: "جهاز الـ CT scan متميز جداً بتصوير كل هاي التفاصيل ويه بعض."
-                    },
-                    {
-                        question: "11. What is the primary function of the 'Patient Table' in a CT system?",
-                        translation: "شنو الوظيفة الأساسية لطاولة المريض بجهاز الـ CT؟",
-                        options: ["A) To generate X-ray beams", "B) To move the patient into the gantry", "C) To process digital signals", "D) To display the final image"],
-                        correct: 1,
-                        explanation: "الوظيفة الأساسية هي تحريك وتدخيل المريض لداخل فتحة الجهاز (الـ Gantry)."
-                    },
-                    {
-                        question: "12. Where are the X-ray tube generator and detector array located?",
-                        translation: "وين صاير مكان أنبوب الأشعة وكاشف الإشعاع؟",
-                        options: ["A) Inside the operating console", "B) In the patient's waiting room", "C) Inside the scanner gantry", "D) On the computer monitor"],
-                        correct: 2,
-                        explanation: "أنبوب الأشعة والـ Detector موجودات بداخل الـ Gantry (فتحة الجهاز الرئيسية)."
-                    },
-                    {
-                        question: "13. During a scan, how is the X-ray beam aimed at the patient?",
-                        translation: "أثناء الفحص، شلون تتسلط حزمة الأشعة على المريض؟",
-                        options: ["A) As a wide, stationary beam", "B) As a narrow beam", "C) As a vertical beam", "D) As a light wave"],
-                        correct: 1,
-                        explanation: "حزمة الأشعة بالـ CT تكون ضيقة (Narrow beam) وتفتر حول المريض."
-                    },
-                    {
-                        question: "14. What happens to the X-rays that pass through the patient's body?",
-                        translation: "شراح يصير للأشعة السينية من تعبر جسم المريض؟",
-                        options: ["A) They are absorbed and disappear", "B) They are detected on the opposite side", "C) They turn into sound waves", "D) They are reflected back to the tube"],
-                        correct: 1,
-                        explanation: "الأشعة اللي تعبر الجسم راح يتم اكتشافها (Detected) بواسطة كواشف موجودة بالجهة المقابلة للأنبوب."
-                    },
-                    {
-                        question: "15. What is the role of the machine's computer in the CT process?",
-                        translation: "شنو دور الكمبيوتر بعملية الـ CT؟",
-                        options: ["A) To move the gantry manually", "B) To process detected signals into cross-sectional images", "C) To cool down the patient table", "D) To inject the contrast material"],
-                        correct: 1,
-                        explanation: "الكمبيوتر ياخذ الإشارات اللي انلگطت ويعالجها حتى يحولها إلى صور مقطعية (Cross-sectional images)."
-                    },
-                    {
-                        question: "16. CT is considered the best method for detecting cancers in which areas?",
-                        translation: "الـ CT يُعتبر أفضل طريقة لاكتشاف السرطانات بيا مناطق؟",
-                        options: ["A) Only the brain and skull", "B) Chest, abdomen, and pelvis", "C) Teeth and hair", "D) Fingers and toes"],
-                        correct: 1,
-                        explanation: "الـ CT هو الأفضل في فحص الصدر والبطن والحوض (Chest, abdomen, and pelvis) واكتشاف الأورام بيهم."
-                    },
-                    {
-                        question: "17. Which of the following can be spotted by a CT scan?",
-                        translation: "يا من هذي الأشياء نكدر نكتشفها بالـ CT؟",
-                        options: ["A) Only major fractures", "B) Subtle bone fractures and organ injuries", "C) Skin rashes", "D) Common flu"],
-                        correct: 1,
-                        explanation: "الـ CT يكدر يكشف الكسور الدقيقة (Subtle bone fractures) وإصابات الأعضاء الداخلية بدقة عالية."
-                    },
-                    {
-                        question: "18. CT plays a significant role in diagnosing vascular diseases that lead to:",
-                        translation: "الـ CT إله دور مهم بتشخيص أمراض الأوعية الدموية اللي ممكن تؤدي إلى شنو؟",
-                        options: ["A) Bone growth", "B) Stroke or kidney failure", "C) Improved vision", "D) Muscle strength"],
-                        correct: 1,
-                        explanation: "أمراض الأوعية الدموية مثل التخثر ممكن تسبب جلطة (Stroke) أو فشل كلوي."
-                    },
-                    {
-                        question: "19. Why is 'Contrast Material' used when scanning soft tissues?",
-                        translation: "ليش نستخدم مادة التباين (الصبغة) من نفحص الأنسجة الرخوة؟",
-                        options: ["A) To make the patient feel warm", "B) Because soft tissues don't show clearly", "C) To reduce the radiation dose", "D) To speed up the rotation of the gantry"],
-                        correct: 1,
-                        explanation: "لأن الأنسجة الرخوة متتشاف بوضوح بدون مادة ملونة تبرزها بالصورة."
-                    },
-                    {
-                        question: "20. What are the two most common materials used for CT contrast?",
-                        translation: "شنو أكثر مادتين شائعة تُستخدم كمواد تباين بالـ CT؟",
-                        options: ["A) Sodium and Potassium", "B) Iodine and Barium sulfate", "C) Calcium and Magnesium", "D) Iron and Lead"],
-                        correct: 1,
-                        explanation: "اليود (Iodine) وكبريتات الباريوم (Barium sulfate) هي أكثر المواد المستخدمة كصبغة."
-                    },
-                    {
-                        question: "21. How does contrast material appear on a CT scan?",
-                        translation: "شلون تطلع مادة التباين (الصبغة) بصورة الـ CT؟",
-                        options: ["A) It appears black", "B) It appears white", "C) It appears transparent", "D) It has no color"],
-                        correct: 1,
-                        explanation: "لأن كثافتها عالية، مادة التباين تبين بيضة (White) بالصورة."
-                    },
-                    {
-                        question: "22. If the target of the scan is the 'Urinary Tract', how is the dye usually delivered?",
-                        translation: "إذا جان الهدف فحص المسالك البولية، شلون ينطون الصبغة للمريض؟",
-                        options: ["A) Orally (drinking)", "B) Via Enema (rectum)", "C) By Injection into a vein", "D) Through the ears"],
-                        correct: 2,
-                        explanation: "للمسالك البولية والأوعية الدموية ينطون الصبغة عن طريق الحقن بالوريد (Injection)."
-                    },
-                    {
-                        question: "23. When the target of the scan is the 'Digestive Tract', the contrast is given:",
-                        translation: "من نفحص الجهاز الهضمي، شلون ننطي مادة التباين؟",
-                        options: ["A) Orally", "B) By injection", "C) Through a skin patch", "D) It is not needed"],
-                        correct: 0,
-                        explanation: "لفحص الجهاز الهضمي، المريض يشرب الصبغة عن طريق الفم (Orally)."
-                    },
-                    {
-                        question: "24. What is the delivery method for contrast if the scan target is the 'Intestines'?",
-                        translation: "شنو طريقة إعطاء الصبغة إذا چان الفحص للأمعاء؟",
-                        options: ["A) Injection", "B) Enema", "C) Breathing it in", "D) Eye drops"],
-                        correct: 1,
-                        explanation: "لفحص الأمعاء والمستقيم، يتم إعطاء مادة التباين عن طريق الحقنة الشرجية (Enema)."
-                    },
-                    {
-                        question: "25. Contrast material highlights which of the following?",
-                        translation: "مادة التباين تبرز يا من هاي الأجزاء بالجسم؟",
-                        options: ["A) Only the outer skin", "B) Blood vessels, organs, and other tissues", "C) Only the patient's clothing", "D) The X-ray tube itself"],
-                        correct: 1,
-                        explanation: "الصبغة تساعد حتى تبرز وتوضح الأوعية الدموية والأعضاء والأنسجة الداخلية."
-                    },
-                    {
-                        question: "26. What is the origin of the word 'tomography'?",
-                        translation: "شنو أصل كلمة tomography؟",
-                        options: ["A) Latin words", "B) Greek words", "C) French words", "D) German words"],
-                        correct: 1,
-                        explanation: "الكلمة مشتقة من كلمات يونانية (Greek words): tomos (مقطع) و graphein (رسم)."
-                    },
-                    {
-                        question: "27. Which of the following conditions can traditional X-rays ideally spot?",
-                        translation: "يا حالة من هاي الحالات تعتبر الأشعة التقليدية مثالية لاكتشافها؟",
-                        options: ["A) Blood clots and organ injuries", "B) dislocations and narrowed joint spaces", "C) Soft tissue tumors", "D) Vascular diseases"],
-                        correct: 1,
-                        explanation: "الأشعة التقليدية ممتازة لاكتشاف الخلع وضيق المفاصل (dislocations and narrowed joint spaces)."
-                    },
-                    {
-                        question: "28. When is contrast material injected directly into a vein?",
-                        translation: "متى تُحقن مادة التباين مباشرة في الوريد؟",
-                        options: ["A) When the scan targets the digestive tract", "B) When the scan targets blood vessels and urinary tract", "C) When the scan targets the intestines", "D) When the scan targets the lungs"],
-                        correct: 1,
-                        explanation: "تنحقن بالوريد من يكون الفحص مستهدف الأوعية الدموية والمسالك البولية حتى تبين بوضوح."
-                    }
+    question: "1. One of the following is NOT an indication for liver ultrasound:",
+    translation: "أي من الآتي ليس مؤشراً لإجراء الموجات فوق الصوتية للكبد؟",
+    options: ["A) Hepatic trauma", "B) Abnormal liver function tests", "C) Renal colic", "D) Focal liver lesion"],
+    correct: 2, // C
+    explanation: "المغص الكلوي (Renal Colic) هو مشكلة تخص الكلى وليس الكبد، لذا ليس مؤشراً لإجراء الإيكو على الكبد."
+},
+{
+    question: "2. One of the following is NOT a method of imaging the hepatobiliary system:",
+    translation: "أي من الآتي ليس طريقة لتصوير الجهاز الصفراوي الكبدي؟",
+    options: ["A) Ultrasound", "B) ERCP", "C) Intravenous Urography (IVU)", "D) Plain film"],
+    correct: 2, // C
+    explanation: "الـ IVU (Intravenous Urography) هو تصوير خاص بالجهاز البولي وليس الكبدي الصفراوي، لذا هو الاستثناء هنا."
+},
+{
+    question: "3. One of the following is an indication for liver ultrasound:",
+    translation: "أي من الآتي يُعد مؤشراً لإجراء الإيكو على الكبد؟",
+    options: ["A) Renal colic", "B) Portal hypertension", "C) Infertility", "D) Testis"],
+    correct: 1, // B
+    explanation: "ارتفاع ضغط الوريد البابي (Portal Hypertension) هو مؤشر مهم لإجراء الإيكو على الكبد لتقييم حجمه وتدفق الدم."
+},
+{
+    question: "4. One of the following is NOT an indication for liver ultrasound:",
+    translation: "أي من الآتي ليس مؤشراً لإجراء الإيكو على الكبد؟",
+    options: ["A) Jaundice", "B) Hepatomegaly", "C) Hepatic trauma", "D) Suspected renal stone"],
+    correct: 3, // D
+    explanation: "الاشتباه بحصوة كلوية (Suspected Renal Stone) يخص الكلى وليس الكبد، لذا لا يُعد مؤشراً لإيكو الكبد."
+},
+{
+    question: "5. The probe used for liver ultrasound is:",
+    translation: "أي نوع من المسابير يستخدم في إيكو الكبد؟",
+    options: ["A) Linear probe 7-12 MHz", "B) Curved linear probe 3-5 MHz", "C) Phased array probe 1-2 MHz", "D) Endocavitary probe"],
+    correct: 1, // B
+    explanation: "المسبار المنحني (Curved Linear Probe) بتردد 3-5 MHz هو المستخدم لتصوير الكبد لأنه يخترق الأنسجة العميقة بشكل أفضل."
+},
+{
+    question: "6. Patient position during liver ultrasound, one of the following is true:",
+    translation: "ما هي وضعية المريض أثناء إيكو الكبد؟",
+    options: ["A) Patient lies prone", "B) Patient lies supine", "C) Patient stands erect", "D) Patient sits upright"],
+    correct: 1, // B
+    explanation: "المريض ينام على ظهره (Supine) أثناء إيكو الكبد، وهذه الوضعية الأساسية لتصوير الكبد بالموجات فوق الصوتية."
+},
+{
+    question: "7. During liver ultrasound scan, the patient is asked to:",
+    translation: "ماذا يُطلب من المريض أثناء إيكو الكبد؟",
+    options: ["A) Hold breath in expiration", "B) Breathe fast", "C) Take a deep inspiration", "D) Drink water before scanning"],
+    correct: 2, // C
+    explanation: "يُطلب من المريض أخذ شهيق عميق (Deep Inspiration) لأن هذا يحرك الكبد للأسفل ويجعله أكثر وضوحاً تحت القوس الضلعي."
+},
+{
+    question: "8. The liver is scanned in how many planes during ultrasound:",
+    translation: "في كم مستوى يتم تصوير الكبد بالإيكو؟",
+    options: ["A) One plane only", "B) Two planes (longitudinal and transverse)", "C) Three planes", "D) Planes are not important in liver US"],
+    correct: 1, // B
+    explanation: "الكبد يُصوَّر في مستويين: الطولي (Longitudinal) والعرضي (Transverse)، لضمان تقييم شامل لجميع أجزاء الكبد."
+},
+{
+    question: "9. On ultrasound, the normal liver echogenicity is:",
+    translation: "ما هي صدوية (Echogenicity) الكبد الطبيعي على الإيكو؟",
+    options: ["A) Same as right renal cortex", "B) Same as renal medulla", "C) Higher than the spleen", "D) Completely anechoic"],
+    correct: 0, // A
+    explanation: "صدوية الكبد الطبيعي تساوي صدوية قشرة الكلية اليمنى (Right Renal Cortex)، وهذه نقطة مرجعية مهمة في التقييم."
+},
+{
+    question: "10. Portal vein walls on ultrasound, one of the following is true:",
+    translation: "جدران الوريد البابي على الإيكو، أي من الآتي صحيح؟",
+    options: ["A) Their walls are not echogenic", "B) Their walls are echogenic (white)", "C) They appear completely black", "D) They are normally not seen by ultrasound"],
+    correct: 1, // B
+    explanation: "جدران الوريد البابي تظهر ساطعة (Echogenic - بيضاء) على الإيكو، وهذه علامة مميزة تفرقه عن الأوردة الكبدية."
+},
+{
+    question: "11. Hepatic vein walls on ultrasound, one of the following is true:",
+    translation: "جدران الأوردة الكبدية على الإيكو، أي من الآتي صحيح؟",
+    options: ["A) Their walls are echogenic (white)", "B) Their walls are not echogenic", "C) They are the same as portal vein walls", "D) They appear hyperechoic compared to parenchyma"],
+    correct: 1, // B
+    explanation: "جدران الأوردة الكبدية (Hepatic Veins) لا تظهر ساطعة على الإيكو، عكس الوريد البابي، وهذا الفرق يساعد في التمييز بينهما."
+},
+{
+    question: "12. Normal Common Bile Duct (CBD) diameter on ultrasound measures:",
+    translation: "ما هو قطر القناة الصفراوية المشتركة الطبيعي على الإيكو؟",
+    options: ["A) Less than 6 mm", "B) Less than 6 cm", "C) More than 10 mm", "D) Exactly 4 cm"],
+    correct: 0, // A
+    explanation: "قطر القناة الصفراوية المشتركة الطبيعي أقل من 6 مم، وأي زيادة عن هذا تستدعي التحقيق لاحتمال وجود انسداد."
+},
+{
+    question: "13. Intrahepatic bile ducts on ultrasound, one of the following is true:",
+    translation: "القنوات الصفراوية داخل الكبد على الإيكو، أي من الآتي صحيح؟",
+    options: ["A) They are easily seen in all patients", "B) They are difficult to see", "C) They appear echogenic (white)", "D) They measure more than 6 mm normally"],
+    correct: 1, // B
+    explanation: "القنوات الصفراوية داخل الكبد يصعب رؤيتها بالإيكو في الحالة الطبيعية لأن قطرها صغير جداً، وظهورها يعني وجود توسع."
+},
+{
+    question: "14. Normal gallbladder wall thickness on ultrasound is:",
+    translation: "ما هو سُمك جدار المرارة الطبيعي على الإيكو؟",
+    options: ["A) Less than 3 mm", "B) Less than 3 cm", "C) More than 5 mm", "D) Exactly 10 mm"],
+    correct: 0, // A
+    explanation: "سُمك جدار المرارة الطبيعي أقل من 3 مم، وأي سماكة أكثر من هذا تستدعي البحث عن التهاب أو أمراض أخرى."
+},
+{
+    question: "15. On ultrasound, the bile inside the gallbladder appears:",
+    translation: "الصفراء داخل المرارة على الإيكو تظهر بأي شكل؟",
+    options: ["A) Echogenic (white)", "B) Hyperechoic", "C) Anechoic (black)", "D) Same as liver parenchyma"],
+    correct: 2, // C
+    explanation: "الصفراء داخل المرارة تظهر سوداء تماماً (Anechoic) على الإيكو لأنها سائل، وهذا طبيعي جداً."
+},
+{
+    question: "16. Gallbladder wall on ultrasound, one of the following is true:",
+    translation: "جدار المرارة على الإيكو، أي من الآتي صحيح؟",
+    options: ["A) The wall is anechoic", "B) The wall is echogenic (white)", "C) The wall is not normally visible", "D) The wall measures more than 5 mm normally"],
+    correct: 1, // B
+    explanation: "جدار المرارة يظهر ساطعاً (Echogenic - أبيض) على الإيكو، ويكون سُمكه أقل من 3 مم في الحالة الطبيعية."
+},
+{
+    question: "17. ERCP stands for:",
+    translation: "شنو يرمز له اختصار ERCP؟",
+    options: ["A) Endoscopic Retrograde Cholangio-Pancreatography", "B) External Retrograde Cholangio-Pancreatography", "C) Endoscopic Renal Cholangio-Pancreatography", "D) Endoscopic Retrograde Chest-Pancreatography"],
+    correct: 0, // A
+    explanation: "ERCP هو اختصار Endoscopic Retrograde Cholangio-Pancreatography، وهو تصوير القنوات الصفراوية والبنكرياس عن طريق المنظار."
+},
+{
+    question: "18. PTC stands for:",
+    translation: "شنو يرمز له اختصار PTC؟",
+    options: ["A) Post-operative T-tube Cholangiography", "B) Percutaneous Transhepatic Cholangiography", "C) Percutaneous Thoracic Cholangiography", "D) Portal Transhepatic Cholangiography"],
+    correct: 1, // B
+    explanation: "PTC هو اختصار Percutaneous Transhepatic Cholangiography، وهو تصوير القنوات الصفراوية عن طريق إبرة تدخل عبر الجلد والكبد."
+},
+{
+    question: "19. One of the following is an indication for liver ultrasound:",
+    translation: "أي من الآتي يُعد مؤشراً لإيكو الكبد؟",
+    options: ["A) Infertility", "B) Renal colic", "C) Abnormal liver function tests", "D) Pelvic pain"],
+    correct: 2, // C
+    explanation: "اختلال وظائف الكبد (Abnormal Liver Function Tests) مؤشر رئيسي لإجراء الإيكو لتقييم حجم الكبد وبنيته."
+},
+{
+    question: "20. The scan areas used during liver ultrasound are:",
+    translation: "ما هي مناطق المسح المستخدمة أثناء إيكو الكبد؟",
+    options: ["A) Epigastric and pelvic", "B) Subcostal and intercostal", "C) Lumbar and iliac", "D) Suprapubic and inguinal"],
+    correct: 1, // B
+    explanation: "الكبد يُصوَّر من منطقتين: تحت القوس الضلعي (Subcostal) وبين الأضلاع (Intercostal)، للحصول على أفضل رؤية لجميع أجزائه."
+},
+{
+    question: "21. One of the following is a method of imaging the hepatobiliary system:",
+    translation: "أي من الآتي طريقة لتصوير الجهاز الكبدي الصفراوي؟",
+    options: ["A) Hysterosalpingography (HSG)", "B) Percutaneous Transhepatic Cholangiography (PTC)", "C) Intravenous Urography (IVU)", "D) Cystography"],
+    correct: 1, // B
+    explanation: "الـ PTC هو طريقة تصوير مباشرة للقنوات الصفراوية عبر ثقب من خلال الجلد، وهو من طرق تصوير الجهاز الكبدي الصفراوي."
+},
+{
+    question: "22. The frequency of the probe used in liver ultrasound is:",
+    translation: "ما هو تردد المسبار المستخدم في إيكو الكبد؟",
+    options: ["A) 7-12 MHz", "B) 3-5 MHz", "C) 1-2 MHz", "D) 10-15 MHz"],
+    correct: 1, // B
+    explanation: "التردد المستخدم لتصوير الكبد هو 3-5 MHz، لأن التردد المنخفض يخترق الأنسجة العميقة بشكل أفضل من التردد العالي."
+},
                 ]
             },
             {
@@ -1443,292 +1401,152 @@
                 icon: "📗",
                 questions: [
                     {
-                        question: "1. What are the three main systems of a CT scanner?",
-                        translation: "شنو هي الأنظمة الثلاثة الرئيسية بجهاز الـ CT؟",
-                        options: ["A) Gantry, table, and control room", "B) Generator, detector, and computer", "C) X-ray tube, filter, and collimator", "D) Detector, monitor, and processor"],
-                        correct: 0,
-                        explanation: "الأنظمة الأساسية هي الـ Gantry (فتحة الجهاز)، الـ Table (الطاولة)، والـ Control room (غرفة التحكم)."
-                    },
-                    {
-                        question: "2. What is the primary function of the generator in a CT scanner?",
-                        translation: "شنو الوظيفة الأساسية للمولد (Generator) بالـ CT؟",
-                        options: ["A) To detect X-rays", "B) To generate electrical energy", "C) To control patient movement", "D) To convert signals into images"],
-                        correct: 1,
-                        explanation: "الـ Generator وظيفته يولد طاقة كهربائية عالية حتى يشغل أنبوب الأشعة."
-                    },
-                    {
-                        question: "3. How long does it take for the gantry to complete a 360° rotation?",
-                        translation: "شكد يحتاج الـ gantry وقت حتى يكمل فرة كاملة 360 درجة؟",
-                        options: ["A) 0.1 seconds", "B) 0.2 seconds", "C) 0.3 seconds", "D) 0.5 seconds"],
-                        correct: 2,
-                        explanation: "الأجهزة الحديثة تكمل الفرة الكاملة بـ 0.3 ثانية بس، وهذا يخلي الفحص سريع جداً."
-                    },
-                    {
-                        question: "4. What is the approximate weight of the CT gantry?",
-                        translation: "شكد تقريباً وزن فتحة الجهاز (CT gantry)؟",
-                        options: ["A) 200 kg", "B) 300 kg", "C) 400 kg", "D) 500 kg"],
-                        correct: 3,
-                        explanation: "وزن الـ Gantry ثقيل جداً ويوصل تقريباً لـ 500 كيلوغرام (نص طن)."
-                    },
-                    {
-                        question: "5. What is the main function of the X-ray tube in CT imaging?",
-                        translation: "شنو الوظيفة الرئيسية لأنبوب الأشعة بالـ CT؟",
-                        options: ["A) To detect radiation", "B) To produce X-rays", "C) To analyze signals", "D) To control image thickness"],
-                        correct: 1,
-                        explanation: "الأنبوب هو المصدر الأساسي، ووظيفته ينتج الأشعة السينية اللي تخترق المريض."
-                    },
-                    {
-                        question: "6. What is the electron source in an X-ray tube typically made from?",
-                        translation: "مصدر الإلكترونات بأنبوب الأشعة من شنو مصنوع عادة؟",
-                        options: ["A) Copper filament", "B) Tungsten filament", "C) Aluminum filament", "D) Iron filament"],
-                        correct: 1,
-                        explanation: "مصنوع من سلك تنغستن (Tungsten filament) لأنه يتحمل حرارة عالية جداً بدون ما يذوب."
-                    },
-                    {
-                        question: "7. Which component of the X-ray tube acts as the negative electrode?",
-                        translation: "أي جزء بأنبوب الأشعة يشتغل كقطب سالب؟",
-                        options: ["A) Anode", "B) Cathode", "C) Filter", "D) Collimator"],
-                        correct: 1,
-                        explanation: "الكاثود (Cathode) هو القطب السالب اللي يطلق الإلكترونات."
-                    },
-                    {
-                        question: "8. What is the function of the filter in a CT scanner?",
-                        translation: "شنو وظيفة الفلتر (Filter) بجهاز الـ CT؟",
-                        options: ["A) To increase X-ray energy", "B) To absorb low-energy photons", "C) To detect radiation", "D) To rotate the gantry"],
-                        correct: 1,
-                        explanation: "الفلتر يمتص الفوتونات اللي طاقتها ضعيفة لأنها تضر المريض بدون فايدة للصورة."
-                    },
-                    {
-                        question: "9. Why are low-energy photons removed by the filter?",
-                        translation: "ليش يتم إزالة الفوتونات ضعيفة الطاقة بالفلتر؟",
-                        options: ["A) Because they damage the detector", "B) Because they do not contribute to the image", "C) Because they slow down the scanning process", "D) Because they reduce gantry rotation speed"],
-                        correct: 1,
-                        explanation: "لأنها ما تساهم بتكوين الصورة مجرد تزيد الجرعة الإشعاعية على جسم المريض (do not contribute to the image)."
-                    },
-                    {
-                        question: "10. What is the primary function of the collimator in CT scanning?",
-                        translation: "شنو الوظيفة الأساسية للـ collimator بالـ CT؟",
-                        options: ["A) To generate X-rays", "B) To determine the radiation field", "C) To store raw data", "D) To rotate the detector"],
-                        correct: 1,
-                        explanation: "الـ collimator يحدد حجم ومجال الإشعاع (radiation field) حتى ما يروح إشعاع لأماكن ما محتاجيها."
-                    },
-                    {
-                        question: "11. How does reducing scatter radiation affect CT images?",
-                        translation: "شلون يؤثر تقليل الإشعاع المشتت على صور الـ CT؟",
-                        options: ["A) It decreases image quality", "B) It increases image quality", "C) It stops radiation completely", "D) It slows the scanning process"],
-                        correct: 1,
-                        explanation: "من نقلل التشتت (scatter)، الصورة راح تزيد جودتها وتصير أوضح (increases image quality)."
-                    },
-                    {
-                        question: "12. What does the collimator control in CT imaging?",
-                        translation: "شنو اللي يتحكم بي الـ collimator بتصوير الـ CT؟",
-                        options: ["A) The temperature of the gantry", "B) The thickness of the CT image", "C) The computer speed", "D) The detector voltage"],
-                        correct: 1,
-                        explanation: "الـ collimator يتحكم بسمك الشريحة أو صورة الـ CT (thickness of the CT image)."
-                    },
-                    {
-                        question: "13. What happens to X-rays when they pass through the patient's body?",
-                        translation: "شراح يصير للأشعة من تعبر بجسم المريض؟",
-                        options: ["A) They are completely absorbed", "B) They are reflected back", "C) They are attenuated by absorption and scatter", "D) They disappear completely"],
-                        correct: 2,
-                        explanation: "الأشعة راح تضعف (attenuated) بسبب أن قسم منها يُمتص وقسم يتشتت بالأنسجة."
-                    },
-                    {
-                        question: "14. What is the primary function of the detector in CT scanners?",
-                        translation: "شنو الوظيفة الأساسية للـ Detector (الكاشف)؟",
-                        options: ["A) To rotate around the patient", "B) To convert radiation into electrical signals", "C) To produce X-rays", "D) To store patient information"],
-                        correct: 1,
-                        explanation: "الكاشف وظيفته يلگط الإشعاع ويحوله إلى إشارات كهربائية حتى الكمبيوتر يفهمها."
-                    },
-                    {
-                        question: "15. What type of detector is used in older CT scanners?",
-                        translation: "شنو نوع الكاشف اللي كان يُستخدم بأجهزة الـ CT القديمة؟",
-                        options: ["A) Xenon gas detector", "B) Solid-state crystal detector", "C) Liquid detector", "D) Film detector"],
-                        correct: 0,
-                        explanation: "بالأجهزة القديمة چانوا يستخدمون كاشف غاز الزينون (Xenon gas detector)."
-                    },
-                    {
-                        question: "16. What is a disadvantage of Xenon gas detectors?",
-                        translation: "شنو العيب بكواشف غاز الزينون؟",
-                        options: ["A) They produce low-quality images", "B) They require gas to remain under pressure", "C) They cannot detect radiation", "D) They generate heat"],
-                        correct: 1,
-                        explanation: "من عيوبها أنها تحتاج إبقاء الغاز تحت ضغط مستمر (under pressure) حتى تشتغل عدل."
-                    },
-                    {
-                        question: "17. Which detector type is most widely used in modern CT scanners?",
-                        translation: "يا نوع من الكواشف هو الأكثر استخداماً بأجهزة الـ CT الحديثة؟",
-                        options: ["A) Xenon gas detector", "B) Solid-state crystal detector", "C) Film detector", "D) Liquid detector"],
-                        correct: 1,
-                        explanation: "كواشف البلورة الصلبة (Solid-state crystal detector) هي الأكثر استخداماً لسرعتها ودقتها."
-                    },
-                    {
-                        question: "18. What happens when X-rays collide with a solid-state crystal detector?",
-                        translation: "شراح يصير من تصطدم الأشعة بكاشف البلورة الصلبة؟",
-                        options: ["A) It produces heat", "B) It glows with light", "C) It reflects radiation", "D) It stops radiation"],
-                        correct: 1,
-                        explanation: "البلورة الصلبة راح تتوهج وتشع ضوء (glows with light) من يضربها الإشعاع."
-                    },
-                    {
-                        question: "19. What is the main purpose of the patient table in a CT scanner?",
-                        translation: "شنو الغرض الأساسي من طاولة المريض بالـ CT؟",
-                        options: ["A) To rotate around the patient", "B) To hold the patient during examination", "C) To produce radiation", "D) To detect X-rays"],
-                        correct: 1,
-                        explanation: "الطاولة تلزم وتشيل المريض بثبات وراحة أثناء الفحص (hold the patient)."
-                    },
-                    {
-                        question: "20. What are the main components found in the control room?",
-                        translation: "شنو المكونات الأساسية الموجودة بغرفة التحكم؟",
-                        options: ["A) Detector and gantry", "B) Operation console and computer", "C) Filter and collimator", "D) X-ray tube and table"],
-                        correct: 1,
-                        explanation: "غرفة التحكم بيها لوحة التشغيل (Operation console) والكمبيوتر الخاص بالفحص."
-                    },
-                    {
-                        question: "21. What is the main role of the operating console?",
-                        translation: "شنو الدور الرئيسي للوحة التشغيل (Operating console)؟",
-                        options: ["A) To detect radiation signals", "B) To serve as the master control center for inputting scan factors", "C) To produce X-rays", "D) To store patient belongings"],
-                        correct: 1,
-                        explanation: "هي تعتبر مركز التحكم الرئيسي (Master control center) اللي ندخل بيه كل عوامل وإعدادات الفحص."
-                    },
-                    {
-                        question: "22. What environmental conditions are typically maintained in the CT computer room?",
-                        translation: "شنو الظروف البيئية اللي لازم نحافظ عليها بغرفة كمبيوتر الـ CT؟",
-                        options: ["A) Temperature above 25°C", "B) Temperature below 20°C and humidity below 30%", "C) Humidity above 50%", "D) No specific conditions required"],
-                        correct: 1,
-                        explanation: "لازم الحرارة تكون أقل من 20 درجة والرطوبة أقل من 30% حتى الأجهزة متحمى وتخرب."
-                    },
-                    {
-                        question: "23. Which of the following components is NOT housed inside the CT gantry?",
-                        translation: "يا من هاي الأجزاء غير موجودة بداخل فتحة الجهاز (CT gantry)؟",
-                        options: ["A) X-ray tube and Detectors", "B) High-frequency generator", "C) The operating console", "D) Filters and Collimators"],
-                        correct: 2,
-                        explanation: "لوحة التحكم (operating console) موجودة بغرفة منعزلة عن الـ gantry لحماية التقني."
-                    },
-                    {
-                        question: "24. What is the maximum tilt angle of the CT gantry?",
-                        translation: "شكد أقصى زاوية ميلان يقدر يميلها الـ CT gantry؟",
-                        options: ["A) 15°", "B) 45°", "C) 30°", "D) 90°"],
-                        correct: 2,
-                        explanation: "فتحة الجهاز تكدر تميل لحد 30 درجة (30°) للأمام أو الخلف حسب الفحص."
-                    },
-                    {
-                        question: "25. The high-frequency generator in a CT scanner typically has a capacity of:",
-                        translation: "المولد عالي التردد بجهاز الـ CT عادة شكد سعته؟",
-                        options: ["A) 10 kW", "B) 60 kW", "C) 100 kW", "D) 500 kW"],
-                        correct: 1,
-                        explanation: "المولد عادة تكون سعته بحدود 60 كيلو واط (60 kW) حتى يجهز طاقة كافية للأنبوب."
-                    },
-                    {
-                        question: "26. In the X-ray tube, the Cathode serves as the _______ while the Anode serves as the _______.",
-                        translation: "بأنبوب الأشعة، الكاثود يمثل الـ _______ والأنود يمثل الـ _______.",
-                        options: ["A) Positive electrode / Negative electrode", "B) Negative electrode / Positive electrode", "C) Cooling system / Heating system", "D) Signal processor / Signal receiver"],
-                        correct: 1,
-                        explanation: "الكاثود هو القطب السالب (Negative) والأنود هو الموجب (Positive)."
-                    },
-                    {
-                        question: "27. What is the main purpose of using a 'Filter' in a CT scanner?",
-                        translation: "شنو الغرض الرئيسي من استخدام الفلتر بالـ CT؟",
-                        options: ["A) To make the X-ray beam wider", "B) To improve image quality and reduce patient dose", "C) To increase the number of low-energy photons", "D) To rotate the gantry faster"],
-                        correct: 1,
-                        explanation: "الفلتر يحسن جودة الصورة ويقلل جرعة الإشعاع على المريض لأنه يمتص الأشعة الضعيفة."
-                    },
-                    {
-                        question: "28. Which type of photons does the filter specifically absorb?",
-                        translation: "يا نوع من الفوتونات الفلتر يمتصها بالتحديد؟",
-                        options: ["A) High-energy photons", "B) Weak energy photons", "C) All photons produced by the tube", "D) Only photons that pass through the bone"],
-                        correct: 1,
-                        explanation: "الفلتر يمتص الفوتونات ضعيفة الطاقة (Weak energy photons) اللي متفيد الصورة."
-                    },
-                    {
-                        question: "29. By reducing scattering, collimators help in:",
-                        translation: "من يقللون التشتت، الكوليميترات (collimators) تساعد بشنو؟",
-                        options: ["A) Increasing the patient's dose", "B) Improving image quality", "C) Making the gantry weigh more", "D) Deleting raw data"],
-                        correct: 1,
-                        explanation: "بتقليل التشتت الإشعاعي راح تتحسن جودة الصورة بشكل كبير (Improving image quality)."
-                    },
-                    {
-                        question: "30. Who is responsible for choosing the thickness of the CT image by adjusting the collimator?",
-                        translation: "منو المسؤول عن اختيار سمك الصورة بتعديل الكوليميتر؟",
-                        options: ["A) The patient", "B) The hospital manager", "C) The radiologist", "D) The computer manufacturer"],
-                        correct: 2,
-                        explanation: "طبيب الأشعة (The radiologist) هو اللي يحدد السمك المطلوب للفحص."
-                    },
-                    {
-                        question: "31. Which type of detector requires the gas to be always under pressure?",
-                        translation: "يا نوع من الكواشف يحتاج أن يكون الغاز دائماً تحت ضغط؟",
-                        options: ["A) Solid-state crystal detector", "B) Xenon gas detector", "C) Liquid detector", "D) Digital monitor"],
-                        correct: 1,
-                        explanation: "كاشف غاز الزينون (Xenon gas detector) يحتاج ضغط عالي للغاز حتى يشتغل."
-                    },
-                    {
-                        question: "32. Why is the entrance for patients different from the entrance for the radiologist?",
-                        translation: "ليش باب دخول المريض يختلف عن باب دخول تقني الأشعة بالقسم؟",
-                        options: ["A) For aesthetic reasons", "B) For protection from infection", "C) To save electricity", "D) Because the gantry is too heavy"],
-                        correct: 1,
-                        explanation: "حتى يقللون من فرص انتقال العدوى ويحمون الكادر (protection from infection)."
-                    },
-                    {
-                        question: "33. What is the 'Master Control Center' of the CT scanner where scan factors are input?",
-                        translation: "شنو هو مركز التحكم الرئيسي اللي ندخل بيه عوامل الفحص؟",
-                        options: ["A) The Gantry", "B) The Patient Table", "C) The Operating Console", "D) The Generator"],
-                        correct: 2,
-                        explanation: "لوحة التحكم (Operating Console) هي المركز اللي نتحكم من خلاله بكل الفحص."
-                    },
-                    {
-                        question: "34. The reconstruction speed of a CT image is primarily dependent on:",
-                        translation: "سرعة معالجة وتكوين صورة الـ CT تعتمد بشكل أساسي على شنو؟",
-                        options: ["A) The weight of the gantry", "B) The computer's microprocessor and internal memory", "C) The size of the waiting room", "D) The type of lead glass used"],
-                        correct: 1,
-                        explanation: "سرعة المعالجة تعتمد على المعالج (microprocessor) والذاكرة الداخلية للكمبيوتر."
-                    },
-                    {
-                        question: "35. Typically, the operating console is made up of:",
-                        translation: "عادةً، لوحة التشغيل من شنو تتكون؟",
-                        options: ["A) A tube, a filter, and a collimator", "B) A computer, a keyboard, and multiple monitors", "C) A gantry, a table, and a locker", "D) A generator and a crystal"],
-                        correct: 1,
-                        explanation: "لوحة التحكم عبارة عن كمبيوتر وكيبورد ومجموعة شاشات للمراقبة وعرض الصور."
-                    },
-                    {
-                        question: "36. Why can high-frequency generators fit inside the gantry?",
-                        translation: "ليش المولدات عالية التردد يكدرون يخلوها بداخل الـ gantry؟",
-                        options: ["A) Because they are located outside the scan room", "B) Because they are so small", "C) Because they are liquid-cooled", "D) Because they require no power supply"],
-                        correct: 1,
-                        explanation: "لأن حجمها كلش صغير (so small)، فصنعوها بحيث تكفي تنحط بداخل الفتحة."
-                    },
-                    {
-                        question: "37. What is the maximum tilt angle of the gantry?",
-                        translation: "شنو أقصى زاوية ميلان للـ gantry؟",
-                        options: ["A) 15°", "B) 20°", "C) 25°", "D) 30°"],
-                        correct: 3,
-                        explanation: "أقصى زاوية ميلان للـ gantry هي 30 درجة (30°)."
-                    },
-                    {
-                        question: "38. What tube current can the generator provide at 125 kV?",
-                        translation: "شكد التيار اللي يكدر يجهزه المولد للأنبوب عند 125 kV؟",
-                        options: ["A) 400 mA", "B) 600 mA", "C) 800 mA", "D) 1000 mA"],
-                        correct: 2,
-                        explanation: "المولد يكدر يجهز تيار عالي يوصل لـ 800 mA عند جهد 125 kV."
-                    },
-                    {
-                        question: "39. What is the pulse duration of the generator?",
-                        translation: "شكد مدة النبضة (pulse duration) للمولد؟",
-                        options: ["A) 1-2 ms", "B) 2-4 ms", "C) 4-6 ms", "D) 6-8 ms"],
-                        correct: 1,
-                        explanation: "مدة النبضة تكون قصيرة جداً وتتراوح بين 2-4 مللي ثانية."
-                    },
-                    {
-                        question: "40. What is the function of the tube envelope in an X-ray tube?",
-                        translation: "شنو وظيفة الغلاف بأنبوب الأشعة؟",
-                        options: ["A) To generate electrons", "B) To focus the electron beam", "C) To maintain an interior vacuum", "D) To cool the anode"],
-                        correct: 2,
-                        explanation: "الغلاف (Envelope) وظيفته الأساسية يحافظ على الفراغ (Vacuum) بداخل الأنبوب."
-                    },
-                    {
-                        question: "41. What facilities are important to have in the CT department?",
-                        translation: "شنو المرافق اللي مهم تكون موجودة بقسم الـ CT؟",
-                        options: ["A) Only a waiting room", "B) A waiting room and changing room", "C) A cafeteria and gift shop", "D) A prayer room and library"],
-                        correct: 1,
-                        explanation: "مهم جداً يتوفر بالقسم غرفة انتظار (waiting room) وغرفة لتبديل الملابس (changing room)."
-                    }
+    question: "1. One of the following is an indication for liver CT:",
+    translation: "أي من الآتي يُعد مؤشراً لإجراء CT للكبد؟",
+    options: ["A) Renal colic", "B) Suspected liver lesion", "C) Infertility", "D) Hematuria"],
+    correct: 1, // B
+    explanation: "الاشتباه بآفة كبدية (Suspected Liver Lesion) هو مؤشر رئيسي لإجراء الـ CT للكبد لتحديد طبيعة ومكان الآفة بدقة."
+},
+{
+    question: "2. One of the following is NOT an indication for liver CT:",
+    translation: "أي من الآتي ليس مؤشراً لإجراء CT للكبد؟",
+    options: ["A) Hepatomegaly", "B) Abnormal liver function tests", "C) Assessment of liver vessels", "D) Suspected renal stone"],
+    correct: 3, // D
+    explanation: "الاشتباه بحصوة كلوية (Suspected Renal Stone) يخص الكلى وليس الكبد، لذا لا يُعد مؤشراً لـ CT الكبد."
+},
+{
+    question: "3. One of the following is an indication for liver CT:",
+    translation: "أي من الآتي يُعد مؤشراً لـ CT الكبد؟",
+    options: ["A) Pelvic pain", "B) Recurrent UTI", "C) To facilitate needle placement for biopsy", "D) Suspected ovarian cyst"],
+    correct: 2, // C
+    explanation: "الـ CT يستخدم لتوجيه الإبرة بدقة أثناء أخذ خزعة الكبد (Biopsy)، وهذا من الاستخدامات التداخلية المهمة."
+},
+{
+    question: "4. Hepatocellular cancer is an example of:",
+    translation: "سرطان الخلايا الكبدية يُعد مثالاً على أي نوع من الآفات؟",
+    options: ["A) Hypovascular lesion", "B) Non-enhancing lesion", "C) Hypervascular lesion", "D) Delayed enhancing lesion"],
+    correct: 2, // C
+    explanation: "سرطان الخلايا الكبدية (HCC) هو آفة فرط الأوعية (Hypervascular)، يعني يأخذ كمية كبيرة من التباين في المرحلة الشريانية."
+},
+{
+    question: "5. Single-phase contrast-enhanced liver CT is called:",
+    translation: "الـ CT الكبد المحسّن أحادي المرحلة يُسمى بأي اسم؟",
+    options: ["A) Arterial phase", "B) Portal phase", "C) Delayed phase", "D) Non-contrast phase"],
+    correct: 1, // B
+    explanation: "الـ CT أحادي المرحلة يُسمى المرحلة البابية (Portal Phase)، وهي المرحلة الأساسية لتقييم الكبد في معظم الحالات الروتينية."
+},
+{
+    question: "6. Regarding single-phase contrast-enhanced liver CT, one of the following is true:",
+    translation: "بخصوص CT الكبد المحسّن أحادي المرحلة، أي من الآتي صحيح؟",
+    options: ["A) It is used for minority of routine liver CT", "B) It is the technique for the majority of routine liver CT imaging", "C) It does not use contrast medium", "D) It is only used for vascular lesions"],
+    correct: 1, // B
+    explanation: "الـ CT أحادي المرحلة (Portal Phase) هو التقنية المستخدمة لأغلب تصويرات الكبد الروتينية، لأنه يعطي معلومات كافية بجرعة إشعاع أقل."
+},
+{
+    question: "7. During portal phase CT, the liver is imaged when:",
+    translation: "في مرحلة البورتال، متى يتم تصوير الكبد؟",
+    options: ["A) Contrast medium is in the hepatic artery only", "B) Contrast medium in the portal vein has fully perfused the liver", "C) No contrast is present in the liver", "D) Contrast is washing out of the parenchyma"],
+    correct: 1, // B
+    explanation: "في المرحلة البابية يتم التصوير لما يكون التباين قد امتلأ الوريد البابي وعبأ الكبد بالكامل، مما يعطي أوضح صورة لنسيج الكبد."
+},
+{
+    question: "8. Triphasic CT of the liver consists of how many phases:",
+    translation: "الـ CT الثلاثي الأطوار للكبد يتكون من كم مرحلة؟",
+    options: ["A) One phase", "B) Two phases", "C) Three phases", "D) Four phases"],
+    correct: 2, // C
+    explanation: "الـ CT الثلاثي (Triphasic CT) يتكون من ثلاث مراحل: الشريانية والبابية والمتأخرة، كل مرحلة تكشف معلومات مختلفة."
+},
+{
+    question: "9. The arterial phase in triphasic CT occurs at:",
+    translation: "المرحلة الشريانية في الـ CT الثلاثي تحصل بعد كم ثانية من حقن التباين؟",
+    options: ["A) 2-3 minutes after IV contrast", "B) 50-75 seconds after IV contrast", "C) 10-35 seconds after IV contrast", "D) 5 minutes after IV contrast"],
+    correct: 2, // C
+    explanation: "المرحلة الشريانية تبدأ بعد 10-35 ثانية من حقن التباين، في هذا الوقت يكون التباين في الشرايين الكبدية فقط."
+},
+{
+    question: "10. The portal venous phase in triphasic CT occurs at:",
+    translation: "المرحلة البابية في الـ CT الثلاثي تحصل بعد كم ثانية من حقن التباين؟",
+    options: ["A) 10-35 seconds after IV contrast", "B) 50-75 seconds after IV contrast", "C) 2-3 minutes after IV contrast", "D) 5 minutes after IV contrast"],
+    correct: 1, // B
+    explanation: "المرحلة البابية تحصل بعد 50-75 ثانية من الحقن، وفيها يكون التباين قد وصل للوريد البابي وعبأ نسيج الكبد."
+},
+{
+    question: "11. The delayed phase in triphasic CT occurs at:",
+    translation: "المرحلة المتأخرة في الـ CT الثلاثي تحصل بعد كم من الوقت؟",
+    options: ["A) 10-35 seconds after IV contrast", "B) 50-75 seconds after IV contrast", "C) 2-3 minutes after IV contrast", "D) 5 seconds after IV contrast"],
+    correct: 2, // C
+    explanation: "المرحلة المتأخرة تحصل بعد 2-3 دقائق من الحقن، وفيها يبدأ التباين بالخروج من الأوعية ويظهر الـ Washout في الآفات."
+},
+{
+    question: "12. During the arterial phase of triphasic CT, one of the following is enhanced:",
+    translation: "في المرحلة الشريانية للـ CT الثلاثي، أي من الآتي يحدث فيه التحسّن؟",
+    options: ["A) Liver parenchyma", "B) Portal vein", "C) Hepatic artery", "D) Hepatic veins"],
+    correct: 2, // C
+    explanation: "في المرحلة الشريانية يمتلئ الشريان الكبدي (Hepatic Artery) بالتباين فقط، وهذا يجعل الآفات الفرط وعائية تظهر ساطعة."
+},
+{
+    question: "13. Hypervascular liver lesions (e.g. hepatocellular cancer) are best seen in:",
+    translation: "الآفات الكبدية فرط الأوعية مثل سرطان الخلايا الكبدية تُرى بشكل أفضل في أي مرحلة؟",
+    options: ["A) Delayed phase", "B) Non-contrast phase", "C) Portal venous phase", "D) Arterial phase"],
+    correct: 3, // D
+    explanation: "الآفات فرط الأوعية (Hypervascular) مثل HCC تُرى بشكل أفضل في المرحلة الشريانية لأنها تأخذ كمية كبيرة من التباين في هذه المرحلة."
+},
+{
+    question: "14. During the portal venous phase of triphasic CT, one of the following is enhanced:",
+    translation: "في المرحلة البابية للـ CT الثلاثي، أي من الآتي يحدث فيه التحسّن؟",
+    options: ["A) Hepatic artery only", "B) Hypervascular lesions only", "C) Liver parenchyma and veins", "D) No enhancement occurs in this phase"],
+    correct: 2, // C
+    explanation: "في المرحلة البابية يحدث تحسّن في نسيج الكبد (Parenchyma) والأوردة معاً، وهذا يجعلها أفضل مرحلة للآفات منخفضة الأوعية."
+},
+{
+    question: "15. Hypovascular liver lesions are best seen in:",
+    translation: "الآفات الكبدية منخفضة الأوعية تُرى بشكل أفضل في أي مرحلة؟",
+    options: ["A) Arterial phase", "B) Non-contrast phase", "C) Portal venous phase", "D) Early arterial phase"],
+    correct: 2, // C
+    explanation: "الآفات منخفضة الأوعية (Hypovascular) تُرى بشكل أفضل في المرحلة البابية لأن نسيج الكبد يكون ساطعاً فتظهر الآفات داكنة بجانبه."
+},
+{
+    question: "16. Regarding the delayed phase of triphasic CT, one of the following is true:",
+    translation: "بخصوص المرحلة المتأخرة في الـ CT الثلاثي، أي من الآتي صحيح؟",
+    options: ["A) It shows enhancement of hepatic artery", "B) It occurs at 50-75 seconds after IV contrast", "C) It shows washout of parenchyma and vessels", "D) It is the best phase for hypervascular lesions"],
+    correct: 2, // C
+    explanation: "المرحلة المتأخرة تُظهر خروج التباين (Washout) من نسيج الكبد والأوعية، وهذه العلامة مهمة جداً في تشخيص الـ HCC."
+},
+{
+    question: "17. Non-contrast CT of the liver, one of the following is true:",
+    translation: "بخصوص CT الكبد بدون تباين، أي من الآتي صحيح؟",
+    options: ["A) It is the preferred technique for routine liver imaging", "B) It has limited usefulness", "C) It shows vascular lesions better than contrast CT", "D) It is safer than ultrasound"],
+    correct: 1, // B
+    explanation: "الـ CT بدون تباين له فائدة محدودة (Limited Usefulness) في تصوير الكبد، لأن معظم الآفات لا تُرى بشكل كافٍ بدون مادة التباين."
+},
+{
+    question: "18. One of the following is true regarding triphasic CT:",
+    translation: "أي من الآتي صحيح بخصوص الـ CT الثلاثي؟",
+    options: ["A) It consists of two phases only", "B) The delayed phase occurs at 10-35 seconds", "C) It is also called multiphasic contrast-enhanced CT", "D) Non-contrast phase is the most important phase"],
+    correct: 2, // C
+    explanation: "الـ CT الثلاثي يُسمى أيضاً الـ Multiphasic Contrast-Enhanced CT، لأنه يتضمن أكثر من مرحلة واحدة للتصوير بالتباين."
+},
+{
+    question: "19. The portal venous phase is also called:",
+    translation: "المرحلة البابية الوريدية تُسمى أيضاً بأي اسم؟",
+    options: ["A) Early arterial phase", "B) Parenchymal phase", "C) Washout phase", "D) Delayed phase"],
+    correct: 1, // B
+    explanation: "المرحلة البابية تُسمى أيضاً المرحلة الحمية (Parenchymal Phase) لأن فيها يكون نسيج الكبد في أوضح حالاته بالتباين."
+},
+{
+    question: "20. One of the following is true regarding the arterial phase of triphasic CT:",
+    translation: "أي من الآتي صحيح بخصوص المرحلة الشريانية في الـ CT الثلاثي؟",
+    options: ["A) It has an early and late arterial phase", "B) It occurs at 50-75 seconds after contrast", "C) It shows washout of liver parenchyma", "D) It is the best phase for hypovascular lesions"],
+    correct: 0, // A
+    explanation: "المرحلة الشريانية تنقسم إلى مبكرة ومتأخرة (Early and Late Arterial Phase)، مما يتيح تقييم أفضل للآفات الوعائية المختلفة."
+},
+{
+    question: "21. Liver CT can be used to facilitate:",
+    translation: "الـ CT الكبد يمكن استخدامه لتسهيل شنو؟",
+    options: ["A) Placement of needles for biopsy", "B) Treatment of gallstones", "C) Removal of liver cysts", "D) Measurement of bile duct pressure"],
+    correct: 0, // A
+    explanation: "الـ CT يُستخدم لتوجيه الإبرة بدقة عالية أثناء أخذ خزعة الكبد (Needle Biopsy)، مما يزيد من دقة أخذ العينة وسلامة المريض."
+},
                 ]
             },
             {
@@ -1901,494 +1719,532 @@
             },
             {
                 id: 4,
-                title: "الاسئلة المرشحة",
-                icon: "🏆",
+                title: "محاضرة 6",
+                icon: "📓",
                 questions: [
    
   {
-    "question": "Q1: What is the primary function of the operating console in a CT scanner system?",
-    "translation": "شنو الوظيفة الأساسية لوحدة التحكم (الكونسول) بجهاز المفراس (CT)؟",
-    "options": ["A) To maintain room temperature below 20°C", "B) To store patients' belongings", "C) To serve as the master control center for inputting scan factors", "D) To collect data from patient records"],
-    "correct": 2,
-    "explanation": "وحدة التحكم هي المركز الرئيسي اللي نستخدمه حتى ندخل بيه عوامل الفحص ونتحكم بالجهاز."
-  },
-  {
-    "question": "Q2: What is the general relationship between photon energy and interaction probability in medical imaging?",
-    "translation": "شنو العلاقة العامة بين طاقة الفوتون واحتمالية التفاعل بالتصوير الطبي؟",
-    "options": ["A) Energy level has no effect on interaction probability", "B) Lower energy decreases interaction probability", "C) Higher energy decreases interaction probability", "D) Higher energy increases interaction probability"],
-    "correct": 2,
-    "explanation": "كل ما تزيد طاقة الإشعاع (الفوتون)، تقل احتمالية تفاعله ويخترق الجسم أسهل."
-  },
-  {
-    "question": "Q3: Why do bones appear white on an X-ray image?",
-    "translation": "ليش العظام تطلع بيضة بصورة الأشعة؟",
-    "options": ["A) Because bones reflect radiation", "B) Because bones contain high levels of calcium that block radiation", "C) Because bones are naturally white in color", "D) Because the X-ray machine is programmed to show bones in white"],
-    "correct": 1,
-    "explanation": "لأن العظام بيها كالسيوم عالي يمتص ويحجب الأشعة، فما تعبر للفيلم وتطلع بيضة."
-  },
-  {
-    "question": "Q4: Which contrast materials are commonly used in CT scans?",
-    "translation": "شنو هي مواد التباين (الملونة) اللي نستخدمها هواي بفحوصات المفراس؟",
-    "options": ["A) Iodine and barium sulfate", "B) Sodium and potassium", "C) Calcium and magnesium", "D) Iron and copper"],
-    "correct": 0,
-    "explanation": "اليود والباريوم هنّ أكثر المواد الملونة استخداماً حتى نوضح بيها الأعضاء الداخلية بالمفراس."
-  },
-  {
-    "question": "Q5: What is the final step in the CT scanning process?",
-    "translation": "شنو هي الخطوة الأخيرة بعملية فحص المفراس؟",
-    "options": ["A) Rotating the X-ray tube", "B) Moving the patient table", "C) Detecting the X-ray signals", "D) Processing signals into cross-sectional images"],
-    "correct": 3,
-    "explanation": "آخر خطوة هي الكمبيوتر من يعالج الإشارات اللي استلمها ويحولها لصور مقطعية نقدر نشوفها."
-  },
-  {
-    "question": "Q6: What are the main components of an operating console in a CT scanner system?",
-    "translation": "شنو هي الأجزاء الرئيسية لوحدة التحكم بجهاز المفراس؟",
-    "options": ["A) Computer, keyboard, and multiple monitors", "B) Storage unit, scanner, and cables", "C) Detectors, processor, and chamber", "D) X-ray tube and gantry"],
-    "correct": 0,
-    "explanation": "الكونسول يتكون بشكل أساسي من كمبيوتر، كيبورد، وشاشات حتى نشوف بيها الصور وندخل البيانات."
-  },
-  {
-    "question": "Q7: Which type of detector is most commonly used in modern CT scanners?",
-    "translation": "شنو أكثر نوع من الكواشف (Detectors) مستخدم بأجهزة المفراس الحديثة؟",
-    "options": ["A) Xenon gas detector", "B) Solid-state crystal detector", "C) Liquid detector", "D) Film detector"],
-    "correct": 1,
-    "explanation": "كواشف الحالة الصلبة (Solid-state) هي الأكثر استخداماً هسه لأنها كفاءتها عالية جداً."
-  },
-  {
-    "question": "Q8: What is the main purpose of the gantry in a CT scanner?",
-    "translation": "شنو الفائدة الأساسية من الجانتري (القوس) بجهاز المفراس؟",
-    "options": ["A) To collect data from patient records", "B) To process the data into images", "C) To house the X-ray tube and detectors", "D) To input scanning parameters"],
-    "correct": 2,
-    "explanation": "الجانتري هو الجزء الكبير اللي يحتوي بداخله أنبوب الأشعة السينية والكواشف اللي تفتر حول المريض."
-  },
-  {
-    "question": "Q9: Which statement accurately describes CT imaging compared to conventional radiography?",
-    "translation": "يا عبارة توصف المفراس بدقة مقارنةً بالأشعة العادية؟",
-    "options": ["A) CT uses magnetic fields instead of X-rays", "B) CT produces lower quality images than radiography", "C) CT is less effective for diagnostic procedures", "D) CT imparts a relatively higher radiation dose to patients"],
-    "correct": 3,
-    "explanation": "المفراس يعطي المريض جرعة إشعاعية أعلى مقارنة بالأشعة السينية العادية لأنه ياخذ صور مقطعية هواية."
-  },
-  {
-    "question": "Q10: Why do soft tissues require contrast material for clear visibility in CT scans?",
-    "translation": "ليش الأنسجة الرخوة تحتاج مادة ملونة حتى تبين بوضوح بالمفراس؟",
-    "options": ["A) Because soft tissues naturally appear too bright on CT scans", "B) Because X-rays pass through soft tissues too quickly", "C) Because soft tissues don't show clearly on X-ray based imaging without enhancement", "D) Because soft tissues move too much during scanning"],
-    "correct": 2,
-    "explanation": "الأنسجة الرخوة كثافتها متقاربة، فما تبين بوضوح بالأشعة بدون ما نعطيها مادة ملونة تبرزها."
-  },
-  {
-    "question": "Q11: How is the X-ray beam configured when scanning a patient?",
-    "translation": "شلون يكون شكل حزمة الأشعة من نفحص المريض؟",
-    "options": ["A) As a wide dispersed beam", "B) As a narrow-focused beam", "C) As multiple simultaneous beams", "D) As an intermittent pulse"],
-    "correct": 1,
-    "explanation": "الأشعة بالمفراس تكون على شكل حزمة ضيقة ومركزة (مثل المروحة أو المخروط) حتى تركز على المقطع المطلوب."
-  },
-  {
-    "question": "Q12: What is the primary function of the patient table in a CT scanner?",
-    "translation": "شنو وظيفة سدية (طاولة) المريض بجهاز المفراس؟",
-    "options": ["A) It generates X-ray beams", "B) It moves the patient into the gantry", "C) It processes digital signals", "D) It rotates around the patient"],
-    "correct": 1,
-    "explanation": "وظيفة الطاولة هي تحريك المريض وتدخيله جوة الجانتري (الحلقة) أثناء الفحص."
-  },
-  {
-    "question": "Q13: How long does it take for the gantry to complete a 360° rotation?",
-    "translation": "شكد يحتاج الجانتري وقت حتى يكمل فرة كاملة (360 درجة)؟",
-    "options": ["A) 0.1 seconds", "B) 0.2 seconds", "C) 0.3 seconds", "D) 0.4 seconds"],
-    "correct": 2,
-    "explanation": "السرعة بالأجهزة الحديثة سريعة جداً، وتستغرق تقريباً 0.3 ثانية للفره الكاملة."
-  },
-  {
-    "question": "Q14: Why must part of the control room wall be made of Lead Equivalent Glass?",
-    "translation": "ليش لازم يكون اكو جزء من حايط غرفة التحكم مصنوع من زجاج مكافئ للرصاص؟",
-    "options": ["A) To monitor patients in case of emergencies", "B) To reduce energy consumption", "C) To enhance the aesthetic appeal", "D) To maintain room temperature"],
-    "correct": 0,
-    "explanation": "حتى نقدر نراقب المريض بأمان ونشوف حالته خلال الفحص بدون ما نتعرض للإشعاع."
-  },
-  {
-    "question": "Q15: In CT scanning, what does a 'projection' primarily represent?",
-    "translation": "بالمفراس، كلمة 'إسقاط' (Projection) شنو تعني بالضبط؟",
-    "options": ["A) A shadow of internal structures from a specific angle", "B) The density of body tissues", "C) The rotation speed of the scanner", "D) The scatter pattern of X-rays"],
-    "correct": 0,
-    "explanation": "الإسقاط هو ببساطة ظل الأعضاء الداخلية من زاوية معينة لمن تضربها الأشعة."
-  },
-  {
-    "question": "Q16: How do bones appear on CT scans and why?",
-    "translation": "شلون تطلع العظام بصور المفراس وليش؟",
-    "options": ["A) Black, due to low radiation attenuation", "B) Grey, due to moderate radiation attenuation", "C) Transparent, due to no radiation attenuation", "D) White, due to high radiation attenuation"],
-    "correct": 3,
-    "explanation": "بيضة، لأن العظام كثافتها عالية وتمتص (توهّن) نسبة كبيرة من الإشعاع."
-  },
-  {
-    "question": "Q17: What happens to the X-rays after they pass through the patient's body?",
-    "translation": "شراح يصير للأشعة السينية بعد ما تعبر جسم المريض؟",
-    "options": ["A) They are detected on the opposite side", "B) They are recycled back to the generator", "C) They are converted to heat energy", "D) They dissipate into the air"],
-    "correct": 0,
-    "explanation": "من تعبر الجسم، الكواشف (Detectors) اللي صايرة بالجهة المقابلة راح تلتقطها وتسجلها."
-  },
-  {
-    "question": "Q18: What is the Hounsfield Unit (HU) value for water at room temperature?",
-    "translation": "شنو هي قيمة وحدة هاونسفيلد (HU) للماء بدرجة حرارة الغرفة؟",
-    "options": ["A) -1000", "B) 1", "C) 0", "D) 100"],
-    "correct": 2,
-    "explanation": "الماء يعتبر هو المقياس الأساسي بوحدات هاونسفيلد، وقيمته دائماً صفر."
-  },
-  {
-    "question": "Q19: Which type of X-rays are more suitable for bone imaging?",
-    "translation": "يا نوع من الأشعة السينية أنسب حتى نصور بيها العظام؟",
-    "options": ["A) Lower energy X-rays", "B) Medium energy X-rays", "C) Higher energy X-rays", "D) X-ray energy has no impact on bone imaging"],
-    "correct": 2,
-    "explanation": "الأشعة ذات الطاقة العالية هي الأنسب حتى تقدر تخترق الكثافة العالية للعظام وتوضحها."
-  },
-  {
-    "question": "Q20: What enables medical professionals to distinguish between different tissues in X-ray images?",
-    "translation": "شنو اللي يخلي الأطباء يقدرون يميزون بين الأنسجة المختلفة بصورة الأشعة؟",
-    "options": ["A) Tissue color", "B) Different radiation attenuation properties", "C) Tissue temperature", "D) Tissue elasticity"],
-    "correct": 1,
-    "explanation": "لأن كل نسيج يمتص (يوهّن) الأشعة بدرجة مختلفة حسب كثافته، وهذا اللي يسوي التباين بالصورة."
-  },
-  {
-    "question": "Q21: Which of these is NOT a factor affecting X-ray penetration into the human body?",
-    "translation": "يا هو من هالعوامل ما يأثر على اختراق الأشعة لجسم الإنسان؟",
-    "options": ["A) X-ray energy", "B) Tissue temperature", "C) Atomic number", "D) Thickness"],
-    "correct": 1,
-    "explanation": "درجة حرارة النسيج مالها أي علاقة باختراق الأشعة، البقية كلهم يأثرون."
-  },
-  {
-    "question": "Q22: Which statement about traditional X-ray imaging is correct?",
-    "translation": "يا عبارة صحيحة بخصوص تصوير الأشعة التقليدية؟",
-    "options": ["A) It shows soft tissues in white on the image", "B) It cannot detect joint space narrowing", "C) It requires multiple angles like a CT scan", "D) It shows soft tissues in gray or black on the image"],
-    "correct": 3,
-    "explanation": "بالأشعة العادية، الأنسجة الرخوة لأنها ما تمتص أشعة هواية تطلع باللون الرمادي أو الأسود."
-  },
-  {
-    "question": "Q23: When examining the digestive tract with contrast material, which delivery method is most appropriate?",
-    "translation": "من نريد نفحص الجهاز الهضمي بمادة ملونة، يا طريقة هي الأنسب لإعطائها؟",
-    "options": ["A) Intravenous injection", "B) Oral administration", "C) Enema", "D) Topical application"],
-    "correct": 1,
-    "explanation": "عن طريق الفم (الشرب) هي الطريقة الأساسية حتى المادة الملونة تمر وتوضح المعدة والأمعاء."
-  },
-  {
-    "question": "Q24: What is the primary function of the focusing cup in an X-ray tube?",
-    "translation": "شنو الوظيفة الأساسية لكوب التركيز (Focusing cup) بأنبوب الأشعة؟",
-    "options": ["A) To maintain vacuum within the tube", "B) To direct and concentrate the electron beam", "C) To cool the anode during operation", "D) To filter low-energy radiation"],
-    "correct": 1,
-    "explanation": "وظيفته يجمع ويركز حزمة الإلكترونات حتى تضرب الهدف بدقة وما تتشتت."
-  },
-  {
-    "question": "Q25: Which component is responsible for converting radiation into electrical signals?",
-    "translation": "يا جزء مسؤول عن تحويل الإشعاع إلى إشارات كهربائية؟",
-    "options": ["A) The detector", "B) The X-ray tube", "C) The collimator", "D) The computer processor"],
-    "correct": 0,
-    "explanation": "الكاشف (Detector) هو اللي يستلم الأشعة ويحولها لكهرباء حتى الكمبيوتر يقدر يقراها."
-  },
-  {
-    "question": "Q26: What is the primary function of the computer in the CT system?",
-    "translation": "شنو وظيفة الكمبيوتر الأساسية بنظام المفراس؟",
-    "options": ["A) To collect and analyze detector input", "B) To manage patient appointments", "C) To control room temperature", "D) To operate the waiting room systems"],
-    "correct": 0,
-    "explanation": "الكمبيوتر ياخذ البيانات من الكواشف، يحللها، ويحولها إلى الصورة اللي نشوفها."
-  },
-  {
-    "question": "Q27: In X-ray imaging, what causes a black appearance on the film?",
-    "translation": "بالأشعة السينية، شنو اللي يخلي الفيلم يطلع أسود؟",
-    "options": ["A) Radiation penetration", "B) Partial absorption of radiation", "C) Complete absorption of radiation", "D) Radiation scattering"],
-    "correct": 0,
-    "explanation": "من الأشعة تخترق الجسم بالكامل (مثل الهواء بالرئة) وماكو شي يمتصها، تضرب الفيلم وتسودّه."
-  },
-  {
-    "question": "Q28: Why are lower energy X-rays particularly useful for soft tissue imaging?",
-    "translation": "ليش الأشعة ذات الطاقة المنخفضة مفيدة كلش بتصوير الأنسجة الرخوة؟",
-    "options": ["A) They penetrate deeper into soft tissues", "B) They are more likely to be absorbed, showing subtle density differences", "C) They scatter more effectively in soft tissues", "D) They produce fewer artifacts in soft tissue imaging"],
-    "correct": 1,
-    "explanation": "لأنها تُمتص بسهولة أكبر بالأنسجة الرخوة، وهذا الشي يبرز الاختلافات البسيطة بالكثافة ويوضحها."
-  },
-  {
-    "question": "Q29: How are CT images generated?",
-    "translation": "شلون تتولد صور المفراس؟",
-    "options": ["A) Through magnetic field manipulation", "B) Using sound wave reflections", "C) By direct tissue sampling", "D) Through computer-processed X-rays around a single axis of rotation"],
-    "correct": 3,
-    "explanation": "تتولد من خلال دوران أنبوب الأشعة حول المريض وأخذ قراءات هواية، والكمبيوتر يعالجها ويطلع الصورة."
-  },
-  {
-    "question": "Q30: What would an X-ray image look like if all radiation penetrated through tissue without any attenuation?",
-    "translation": "شلون راح يكون شكل صورة الأشعة إذا كل الإشعاع اخترق الجسم بدون أي توهين؟",
-    "options": ["A) Completely white", "B) Various shades of grey", "C) Completely black", "D) No image would form"],
-    "correct": 2,
-    "explanation": "إذا كل الأشعة اخترقت ووصلت للفيلم بدون ما يمتصها الجسم، الفيلم راح يحترق ويصير أسود تماماً."
-  },
-  {
-    "question": "Q31: Which imaging modality produces a grayscale image that shows varying degrees of radiation absorption?",
-    "translation": "يا تقنية تصوير تطلع صورة بتدرج رمادي تبين درجات امتصاص الإشعاع المختلفة؟",
-    "options": ["A) Ultrasound", "B) CT scan", "C) MRI", "D) PET scan"],
-    "correct": 1,
-    "explanation": "المفراس (CT) يعتمد على الأشعة السينية، ويطلع الصورة بتدرج رمادي حسب شكد النسيج امتص إشعاع."
-  },
-  {
-    "question": "Q32: What is the primary component of a CT scanner that emits X-rays?",
-    "translation": "شنو هو الجزء الأساسي بجهاز المفراس اللي يطلّع (يُصدر) الأشعة السينية؟",
-    "options": ["A) Detector array", "B) X-ray tube", "C) Collimator", "D) Projection screen"],
-    "correct": 1,
-    "explanation": "أنبوب الأشعة السينية (X-ray tube) هو المصدر الأساسي لتوليد الإشعاع بالجهاز."
-  },
-  {
-    "question": "Q33: What environmental conditions must be maintained in the computer room?",
-    "translation": "شنو هي الظروف البيئية اللي لازم نحافظ عليها بغرفة الكمبيوتر (مال الجهاز)؟",
-    "options": ["A) Temperature above 30°C and humidity below 20%", "B) Temperature below 20°C and humidity below 30%", "C) Temperature above 20°C and humidity above 30%", "D) No specific environmental requirements"],
-    "correct": 1,
-    "explanation": "لازم الغرفة تكون باردة (أقل من 20 مئوية) ورطوبتها قليلة حتى الأجهزة متحمى وتخرب."
-  },
-  {
-    "question": "Q34: Which type of detector uses ionization to create electrical signals?",
-    "translation": "يا نوع من الكواشف يستخدم عملية التأين حتى يسوي إشارات كهربائية؟",
-    "options": ["A) Xenon gas detector", "B) Solid-state crystal detector", "C) Silicon detector", "D) Phosphor detector"],
-    "correct": 0,
-    "explanation": "كاشف غاز الزينون يعتمد على تأين الغاز من تضربه الأشعة حتى يولد إشارة كهربائية."
-  },
-  {
-    "question": "Q35: What is the primary function of computed tomography in medical imaging?",
-    "translation": "شنو هي الوظيفة الأساسية للمفراس بالتصوير الطبي؟",
-    "options": ["A) To produce only two-dimensional images of bones", "B) To generate ultrasound waves for tissue examination", "C) To create three-dimensional images from a series of X-ray slices", "D) To measure magnetic resonance in body tissues"],
-    "correct": 2,
-    "explanation": "الوظيفة الأساسية هي تكوين صور مقطعية وثلاثية الأبعاد من خلال تجميع سلسلة من صور الأشعة."
-  },
-  {
-    "question": "Q36: What is the primary purpose of using contrast material in CT scans?",
-    "translation": "شنو الغرض الأساسي من استخدام المادة الملونة بفحوصات المفراس؟",
-    "options": ["A) To highlight soft tissues, blood vessels, and organs", "B) To reduce radiation exposure", "C) To speed up the scanning process", "D) To decrease image resolution"],
-    "correct": 0,
-    "explanation": "المادة الملونة نستخدمها حتى نوضح ونبرز الأنسجة الرخوة والأوعية الدموية اللي ما تبين بوضوح بدونها."
-  },
-  {
-    "question": "Q37: Which statement best describes the relationship between filtration and patient radiation dose?",
-    "translation": "يا عبارة توصف بشكل أفضل العلاقة بين الفلترة وجرعة الإشعاع اللي ياخذها المريض؟",
-    "options": ["A) Filtration increases patient dose by amplifying radiation", "B) Filtration has no effect on patient radiation dose", "C) Filtration decreases image quality while increasing patient dose", "D) Filtration reduces patient dose by removing non-contributory radiation"],
-    "correct": 3,
-    "explanation": "الفلاتر تقلل جرعة الإشعاع للمريض لأنها تشيل الأشعة الضعيفة اللي ما تفيد بتكوين الصورة بس تضر المريض."
-  },
-  {
-    "question": "Q38: What happens to radiation as it passes through the patient during a CT scan?",
-    "translation": "شنو يصير للإشعاع من يعبر جسم المريض بفحص المفراس؟",
-    "options": ["A) It is completely absorbed", "B) It is amplified", "C) It experiences attenuation through absorption and scatter", "D) It remains unchanged"],
-    "correct": 2,
-    "explanation": "الإشعاع يصير بيه توهين (يضعف)، جزء منه يمتصه الجسم وجزء يتشتت."
-  },
-  {
-    "question": "Q39: During the CT scanning process, how do X-rays interact with body tissues?",
-    "translation": "أثناء فحص المفراس، شلون تتفاعل الأشعة وي أنسجة الجسم؟",
-    "options": ["A) They are only absorbed", "B) They are only scattered", "C) They are both absorbed and scattered", "D) They pass through without interaction"],
-    "correct": 2,
-    "explanation": "الأشعة من تدخل الجسم قسم منها يمتصه النسيج وقسم ثاني يتشتت، وهذا اللي يسوي التوهين."
-  },
-  {
-    "question": "Q40: What is the relationship between penetration and attenuation in radiation?",
-    "translation": "شنو العلاقة بين الاختراق والتوهين بالإشعاع؟",
-    "options": ["A) They are directly proportional", "B) They are inversely proportional", "C) They have no relationship", "D) They are exponentially related"],
-    "correct": 1,
-    "explanation": "العلاقة عكسية، كل ما زاد اختراق الأشعة، معناها قل التوهين (الامتصاص)، والعكس صحيح."
-  },
-  {
-    "question": "Q41: What unique capability does CT scanning offer compared to traditional X-rays?",
-    "translation": "شنو الميزة الفريدة اللي يقدمها المفراس مقارنة بالأشعة العادية؟",
-    "options": ["A) It can only examine soft tissues", "B) It provides 180-degree views of body structures", "C) It reconstructs 3D images from multiple X-ray slices", "D) It uses magnetic fields and radio waves"],
-    "correct": 2,
-    "explanation": "المفراس يكدر يجمع شرائح هواية من الأشعة ويبني منها صورة مجسمة (ثلاثية الأبعاد)، وهذا الشي مستحيل بالأشعة العادية."
-  },
-  {
-    "question": "Q42: Which of the following organs can be effectively screened for cancer using CT scans?",
-    "translation": "يا أعضاء نقدر نفحصها ونكشف بيها عن السرطان بفعالية باستخدام المفراس؟",
-    "options": ["A) Tongue, liver, kidney, ovary, and pancreas", "B) Liver and kidneys only", "C) Lungs, liver, kidneys, ovary, and pancreas", "D) Heart, tongue, and lungs"],
-    "correct": 2,
-    "explanation": "المفراس كلش دقيق وفعال باكتشاف الأورام بالرئتين، الكبد، الكلى، المبيض، والبنكرياس."
-  },
-  {
-    "question": "Q43: How do bones appear on CT scans and why?",
-    "translation": "شلون تطلع العظام بصور المفراس وليش؟",
-    "options": ["A) Black due to low radiation absorption", "B) White due to high radiation absorption", "C) Gray due to medium radiation absorption", "D) Invisible due to no radiation interaction"],
-    "correct": 1,
-    "explanation": "تطلع بيضة لأنها كثيفة وتمتص كمية كبيرة من الإشعاع، فما تخلي الأشعة توصل للكاشف بقوة."
-  },
-  {
-    "question": "Q44: How does CT scanning generate more image clarity?",
-    "translation": "شلون المفراس يطلّع صورة أكثر وضوحاً؟",
-    "options": ["A) By taking only a few static X-ray images", "B) By using magnetic resonance to visualize body tissues", "C) By using computer-processed rotating X-ray beams", "D) By shortening the exposure radiation only"],
-    "correct": 2,
-    "explanation": "عن طريق دوران حزمة الأشعة حول المريض وأخذ زوايا مختلفة، والكمبيوتر يعالجها ويطلع تفاصيل دقيقة."
-  },
-  {
-    "question": "Q45: During the CT scan process, how do X-rays interact with body tissue?",
-    "translation": "خلال فحص المفراس، شلون تتفاعل الأشعة السينية وي أنسجة الجسم؟",
-    "options": ["A) They are only absorbed", "B) They are only scattered", "C) They are both absorbed and scattered", "D) They reflect off tissues"],
-    "correct": 2,
-    "explanation": "الأشعة تتعرض لعمليتين مع بعض: الامتصاص من قبل الأنسجة، والتشتت بداخل الجسم."
-  },
-  {
-    "question": "Q46: Why do bones appear white in X-ray images?",
-    "translation": "ليش العظام تطلع بيضة بصور الأشعة؟",
-    "options": ["A) They absorb most radiation due to high density", "B) They have low density", "C) They reflect radiation", "D) They scatter radiation completely"],
-    "correct": 0,
-    "explanation": "لأن كثافتها العالية تخليها تمتص أغلب الإشعاع، فيبقى مكانها بالفيلم أو الصورة أبيض."
-  },
-  {
-    "question": "Q47: Which imaging technique would be most appropriate for detecting subtle bone fractures?",
-    "translation": "يا تقنية تصوير تكون الأنسب حتى نكشف الكسور الدقيقة (الناعمة) بالعظام؟",
-    "options": ["A) CT scan imaging", "B) Either X-ray or CT scan would be equally effective", "C) X-ray imaging only", "D) Neither imaging technique is suitable for fractures"],
-    "correct": 0,
-    "explanation": "المفراس (CT) هو الأدق لأن ياخذ مقاطع رقيقة ويقدر يشوف الكسور اللي متبيّن بالأشعة العادية."
-  },
-  {
-    "question": "Q48: Which component of an X-ray tube serves as the electron source?",
-    "translation": "يا جزء بأنبوب الأشعة يعتبر هو المصدر اللي تطلع منه الإلكترونات؟",
-    "options": ["A) The glass envelope", "B) The focusing cup", "C) The heated tungsten filament", "D) The anode target"],
-    "correct": 2,
-    "explanation": "خيط التنغستن الساخن (بالكاثود) هو اللي يسخن ويحرر الإلكترونات اللي نحتاجها لتوليد الأشعة."
-  },
-  {
-    "question": "Q49: Why do soft tissues require contrast material for clear visibility in CT scans?",
-    "translation": "ليش الأنسجة الرخوة تحتاج مادة ملونة حتى تبين واضحة بالمفراس؟",
-    "options": ["A) Because soft tissues naturally appear too bright on CT scans", "B) Because X-rays pass through soft tissues too quickly", "C) Because soft tissues move too much during scanning", "D) Because soft tissues don't show clearly on X-ray based imaging without enhancement"],
-    "correct": 3,
-    "explanation": "لأن كثافة الأنسجة الرخوة متقاربة فماكو تباين بيناتها بصورة الأشعة، المادة الملونة تحل هاي المشكلة وتبرزها."
-  },
-  {
-    "question": "Q50: What is a disadvantage of xenon gas detectors?",
-    "translation": "شنو هو العيب بكواشف غاز الزينون؟",
-    "options": ["A) They produce poor quality images", "B) They require constant pressurization", "C) They are too expensive", "D) They emit too much radiation"],
-    "correct": 1,
-    "explanation": "عيبها الرئيسي إنها تحتاج ضغط عالي ومستمر للغاز حتى تشتغل بكفاءة، وهذا يخلي تصميمها معقد."
-  },
-  {
-    "question": "Q51: In CT scanning, what does a 'projection' primarily represent?",
-    "translation": "بالمفراس، شنو يعني مصطلح 'الإسقاط' (Projection)؟",
-    "options": ["A) The rotation speed of the scanner", "B) The density of body tissues", "C) A shadow of internal structures from a specific angle", "D) The scatter pattern of X-rays"],
-    "correct": 2,
-    "explanation": "الإسقاط هو الظل اللي يتكون للأعضاء الداخلية من تمر بيها الأشعة من زاوية معينة."
-  },
-  {
-    "question": "Q52: In X-ray imaging, what causes a black appearance on the film?",
-    "translation": "بتصوير الأشعة، شنو اللي يخلي الفيلم يطلع أسود؟",
-    "options": ["A) Complete absorption of radiation", "B) Partial absorption of radiation", "C) Radiation penetration", "D) Radiation scattering"],
-    "correct": 2,
-    "explanation": "اختراق الإشعاع الكامل للجسم (بدون ما يمتص) يخلي الأشعة تضرب الفيلم وتسودّه، مثل ما يصير وي الهواء بالرئة."
-  },
-  {
-    "question": "Q53: What happens to the X-rays after they pass through the patient's body?",
-    "translation": "شنو يصير للأشعة السينية بعد ما تمر بجسم المريض؟",
-    "options": ["A) They are converted to heat energy", "B) They are detected on the opposite side", "C) They are recycled back to the generator", "D) They dissipate into the air"],
-    "correct": 1,
-    "explanation": "من تعبر الجسم، راح تستقبلها الكواشف (Detectors) الموجودة بالجهة المقابلة للأنبوب."
-  },
-  {
-    "question": "Q54: Which component of the CT scanner contains the rotating mechanism that holds the X-ray tube?",
-    "translation": "يا جزء بجهاز المفراس يحتوي على الآلية الدوارة اللي تلزم أنبوب الأشعة؟",
-    "options": ["A) The gantry", "B) The patient table", "C) The detector array", "D) The computer processor"],
-    "correct": 0,
-    "explanation": "الجانتري (الحلقة الكبيرة) هو اللي بداخله كل الأجزاء الدوارة مثل أنبوب الأشعة والكواشف."
-  },
-  {
-    "question": "Q55: What happens during radiation absorption in tissue?",
-    "translation": "شنو يصير من الأنسجة تمتص الإشعاع؟",
-    "options": ["A) Photons are deflected without energy transfer", "B) Photons pass through without interaction", "C) Photons transfer their energy to tissue atoms", "D) Photons increase their energy level"],
-    "correct": 2,
-    "explanation": "عملية الامتصاص معناها إن الفوتونات (الإشعاع) تنطي طاقتها لذرات النسيج وتتوقف."
-  },
-  {
-    "question": "Q56: Which statement best describes the relationship between radiation attenuation and Hounsfield Units?",
-    "translation": "يا عبارة توصف أحسن شي العلاقة بين توهين الإشعاع ووحدات هاونسفيلد (HU)؟",
-    "options": ["A) Higher HU values indicate higher radiation attenuation", "B) Lower HU values indicate higher radiation attenuation", "C) There is no relationship between HU and radiation attenuation", "D) HU values are independent of tissue density"],
-    "correct": 0,
-    "explanation": "كلما زاد التوهين (امتصاص النسيج للإشعاع مثل العظم)، زادت قيمة وحدة هاونسفيلد للنسيج."
-  },
-  {
-    "question": "Q57: CT Scan stands for:",
-    "translation": "اختصار CT Scan يعني شنو؟",
-    "options": ["A) Computed Tomography Scan", "B) Colored Topography Scan", "C) Computerized Topography Scan"],
-    "correct": 0,
-    "explanation": "الـ CT هو اختصار لـ Computed Tomography، ويعني التصوير المقطعي المحوسب."
-  },
-  {
-    "question": "Q58: Why is contrast used in CT scan?",
-    "translation": "ليش نستخدم المادة الملونة (التباين) بالمفراس؟",
-    "options": ["A) To suppress particular tissues", "B) To reduce bone interference", "C) To show soft tissue clearly"],
-    "correct": 2,
-    "explanation": "نستخدم المادة الملونة حتى نوضح ونميز الأنسجة الرخوة والأوعية اللي ما تبين بدونها."
-  },
-  {
-    "question": "Q59: The function of the generator in the CT is:",
-    "translation": "شنو وظيفة المولد الكهربائي (الجنريتر) بالمفراس؟",
-    "options": ["A) To produce X-ray beam", "B) To reduce the scatter radiation", "C) To produce electrical energy"],
-    "correct": 2,
-    "explanation": "وظيفة المولد هي تحويل وإنتاج الطاقة الكهربائية (الفولتية العالية) اللي يحتاجها أنبوب الأشعة."
-  },
-  {
-    "question": "Q60: The amount of ______ determines the gradient gray in the image:",
-    "translation": "كمية ______ هي اللي تحدد التدرج الرمادي بالصورة:",
-    "options": ["A) Scattered rays", "B) Absorbed rays", "C) Penetrating rays"],
-    "correct": 2,
-    "explanation": "الأشعة المخترقة (اللي تعبر الجسم وتوصل للكاشف) هي اللي تحدد شكد راح يكون التدرج الرمادي بكل بكسل."
-  },
-  {
-    "question": "Q61: The image reconstruction refers to:",
-    "translation": "مصطلح 'إعادة بناء الصورة' يشير لشنو؟",
-    "options": ["A) A mathematical algorithm", "B) Speed of image acquisition", "C) A data set representing X-ray attenuation in the patient"],
-    "correct": 2,
-    "explanation": "إعادة بناء الصورة هي معالجة مجموعة البيانات اللي تمثل شكد الأشعة صار بيها توهين بكل جزء من المريض."
-  },
-  {
-    "question": "Q62: The brightness of the image is adjusted via:",
-    "translation": "سطوع الصورة نقدر نعدله من خلال:",
-    "options": ["A) Window level", "B) Window width", "C) Both A and B"],
-    "correct": 2,
-    "explanation": "الـ Window level يتحكم بالسطوع، والـ Window width يتحكم بالتباين، واثنينهم نستخدمهم لتعديل الصورة للمشاهدة."
-  },
-  {
-    "question": "Q63: The data acquisition mode in the ______ generation is (rotate-stationary):",
-    "translation": "نمط أخذ البيانات بيا جيل يكون (دوران-ثابت)؟",
-    "options": ["A) 1st generation", "B) 3rd generation", "C) 4th generation"],
-    "correct": 2,
-    "explanation": "بالجيل الرابع، الكواشف تكون ثابتة على طول الحلقة، بس الأنبوب هو اللي يفتر (Rotate-Stationary). *ملاحظة: حسب الخيارات الأصح هو الرابع، بس بالاجابة القياسية مرات يقصدون غير شي. بناءً ع السياق العلمي الرابع هو Rotate-Stationary.*",
-    "note": "Correction based on CT generation history: 4th gen is Rotate-Stationary. If the source had 1st gen as correct, 1st gen is Translate-Rotate."
-  },
-  {
-    "question": "Q64: What is the primary function of the generator in the CT scanner?",
-    "translation": "شنو الوظيفة الأساسية للمولد بجهاز المفراس؟",
-    "options": ["A) To produce electrical energy and send it to the X-ray tube", "B) To rotate around the patient", "C) To detect scattered radiation", "D) To store patient data"],
-    "correct": 0,
-    "explanation": "المولد يصنع الطاقة الكهربائية العالية ويدزها لأنبوب الأشعة حتى يقدر يولد الإشعاع."
-  },
-  {
-    "question": "Q65: What are the main components of the X-ray tube?",
-    "translation": "شنو هي الأجزاء الرئيسية لأنبوب الأشعة السينية؟",
-    "options": ["A) Anode, Cathode, Glass Envelope, and High Voltage Power Supply", "B) Generator, Filter, Collimator, and Detector", "C) Gantry, Table, Control Room, and Monitor", "D) Computer, Keyboard, Scanner, and Printer"],
-    "correct": 0,
-    "explanation": "الأنبوب يتكون من قطب موجب (أنود)، قطب سالب (كاثود)، غلاف زجاجي يحافظ على الفراغ، ويحتاج فولتية عالية."
-  },
-  {
-    "question": "Q66: What does the scanner gantry contain?",
-    "translation": "شنو اللي موجود بداخل جانتري المفراس؟",
-    "options": ["A) The rotating portion holding the X-ray tube generator and detector array", "B) The patient's medical records only", "C) The contrast material injection system", "D) The computer and monitors only"],
-    "correct": 0,
-    "explanation": "الجانتري يحتوي على الجزء الدوار اللي شايل أنبوب الأشعة ومجموعة الكواشف."
-  },
-  {
-    "question": "Q67: What is the Hounsfield Unit (HU) value for air?",
-    "translation": "شنو هي قيمة وحدة هاونسفيلد (HU) للهواء؟",
-    "options": ["A) 0", "B) +1000", "C) -1000", "D) +500"],
-    "correct": 2,
-    "explanation": "الهواء أقل كثافة من كل شي بالجسم، فقيمته هي الحد الأدنى وتساوي -1000."
-  },
-  {
-    "question": "Q68: Which contrast delivery method is used when the target of the scan is the intestines?",
-    "translation": "يا طريقة إعطاء مادة ملونة نستخدمها إذا كان الهدف نفحص الأمعاء؟",
-    "options": ["A) Injection into a vein", "B) Oral administration", "C) Enema (inserted in the rectum)", "D) Inhalation"],
-    "correct": 2,
-    "explanation": "الحقنة الشرجية (Enema) نستخدمها حتى نترس الأمعاء الغليظة بالمادة الملونة وتوضح بالفحص."
-  },
-  {
-    "question": "Q69: What does the collimator control in terms of CT image characteristics?",
-    "translation": "الكوليميتر (المُجمِّع) شنو اللي يتحكم بيه بخصائص صورة المفراس؟",
-    "options": ["A) The thickness of the CT image by expanding or reducing the radiation field", "B) The brightness of the image on the monitor", "C) The rotation speed of the gantry", "D) The amount of contrast material injected"],
-    "correct": 0,
-    "explanation": "الكوليميتر هو اللي يحدد سمك الشريحة (الصورة) من خلال تضييق أو توسيع حزمة الإشعاع."
-  }
+    question: "1. One of the following is NOT a method of imaging the urinary tract:",
+    translation: "أي من الآتي ليس طريقة لتصوير الجهاز البولي؟",
+    options: ["A) Intravenous Urography (IVU)", "B) CT Urography (CTU)", "C) Hysterosalpingography (HSG)", "D) Plain radiography"],
+    correct: 2, // C
+    explanation: "الـ HSG هو تصوير خاص بالرحم وقناتي فالوب لتقييم الخصوبة، وليس له علاقة بتصوير الجهاز البولي."
+},
+{
+    question: "2. One of the following is a method of imaging the urinary tract:",
+    translation: "أي من الآتي يُعد طريقة لتصوير الجهاز البولي؟",
+    options: ["A) ERCP", "B) Ascending urethrography", "C) Hysterosalpingography (HSG)", "D) T-tube cholangiography"],
+    correct: 1, // B
+    explanation: "الـ Ascending Urethrography هو تصوير الإحليل بحقن التباين من الأسفل للأعلى، وهو من طرق تصوير الجهاز البولي."
+},
+{
+    question: "3. Regarding IVU, one of the following is true:",
+    translation: "بخصوص الـ IVU، أي من الآتي صحيح؟",
+    options: ["A) Oral contrast is used", "B) IV contrast injection is used to visualize the urinary tract", "C) No contrast is needed", "D) Barium is the contrast agent used"],
+    correct: 1, // B
+    explanation: "الـ IVU يعتمد على حقن مادة التباين في الوريد، وبعدها الكلى تُفرزها في البول مما يُظهر الجهاز البولي بالكامل."
+},
+{
+    question: "4. One of the following is an indication for IVU:",
+    translation: "أي من الآتي يُعد مؤشراً لإجراء الـ IVU؟",
+    options: ["A) Infertility", "B) Pelvic pain", "C) Diurnal enuresis in children", "D) Hepatomegaly"],
+    correct: 2, // C
+    explanation: "التبول اللاإرادي النهاري عند الأطفال (Diurnal Enuresis) هو مؤشر للـ IVU لاستبعاد أي تشوه خلقي أو انسداد في الجهاز البولي."
+},
+{
+    question: "5. One of the following is an indication for IVU:",
+    translation: "أي من الآتي يُعد مؤشراً للـ IVU؟",
+    options: ["A) Suspected liver lesion", "B) Visualize kidneys and ureters for obstruction", "C) Portal hypertension", "D) Abnormal liver function tests"],
+    correct: 1, // B
+    explanation: "تصوير الكلى والحالبين للبحث عن انسداد هو من أهم مؤشرات الـ IVU، مثل حالات حصوات الكلى والانسداد البولي."
+},
+{
+    question: "6. One of the following is NOT an indication for IVU:",
+    translation: "أي من الآتي ليس مؤشراً للـ IVU؟",
+    options: ["A) Diurnal enuresis in children", "B) Visualize kidneys and ureters for obstruction", "C) Suspected liver lesion", "D) Ureteral obstruction"],
+    correct: 2, // C
+    explanation: "الاشتباه بآفة كبدية يخص الكبد وليس الجهاز البولي، لذا لا علاقة له بالـ IVU الذي يُستخدم لتصوير الجهاز البولي فقط."
+},
+{
+    question: "7. Contraindications for IVU are related to:",
+    translation: "موانع الـ IVU تتعلق بشنو؟",
+    options: ["A) Patient age only", "B) Contrast medium and radiation", "C) Patient weight only", "D) Renal size"],
+    correct: 1, // B
+    explanation: "موانع الـ IVU مرتبطة بأمرين: مادة التباين اليودية (الحساسية ومشاكل الكلى) والإشعاع (الحمل وما يتعلق به)."
+},
+{
+    question: "8. Patient preparation before IVU includes:",
+    translation: "تحضير المريض قبل الـ IVU يشمل شنو؟",
+    options: ["A) Full urinary bladder", "B) Drinking water before the procedure", "C) Fasting", "D) Eating a light meal"],
+    correct: 2, // C
+    explanation: "الصيام قبل الـ IVU مطلوب لتقليل محتوى المعدة، ولضمان تركيز أفضل لمادة التباين في البول خلال الفحص."
+},
+{
+    question: "9. Preliminary images in IVU include:",
+    translation: "الصور الأولية في الـ IVU تشمل شنو؟",
+    options: ["A) Lateral chest X-ray only", "B) Supine AP and lateral of the abdomen", "C) Erect AP of the chest", "D) Prone AP of the abdomen"],
+    correct: 1, // B
+    explanation: "الصور الأولية تشمل صورة AP أمامية خلفية وصورة جانبية للبطن وهو مستلقٍ، لتقييم المنطقة قبل حقن التباين."
+},
+{
+    question: "10. During IVU, contrast is injected:",
+    translation: "أثناء الـ IVU، كيف يتم حقن مادة التباين؟",
+    options: ["A) Orally", "B) Into rectum", "C) Into hepatic veins", "D) Intravenously and rapidly"],
+    correct: 3, // D
+    explanation: "في الـ IVU يتم حقن مادة التباين في الوريد وبسرعة (IV Rapidly) حتى تصل للكلى بتركيز كافٍ لإظهار الجهاز البولي."
+},
+{
+    question: "11. The immediate AP film in IVU is taken after injection to visualize:",
+    translation: "الصورة الفورية في الـ IVU تُؤخذ لإظهار شنو؟",
+    options: ["A) Pelvicalyceal system distension", "B) Bladder emptying", "C) Nephrogram", "D) Ureteral obstruction"],
+    correct: 2, // C
+    explanation: "الصورة الفورية تُظهر الـ Nephrogram وهو ظهور نسيج الكلى ساطعاً بسبب امتلائه بمادة التباين، وهذا يُقيّم وظيفة الكلى."
+},
+{
+    question: "12. The immediate AP film in IVU is taken at:",
+    translation: "الصورة الفورية في الـ IVU تُؤخذ بعد كم من الوقت؟",
+    options: ["A) 5 minutes after injection", "B) 10-15 seconds after injection", "C) 10 minutes after injection", "D) 30 minutes after injection"],
+    correct: 1, // B
+    explanation: "الصورة الفورية تُؤخذ بعد 10-15 ثانية من الحقن مباشرة لالتقاط مرحلة الـ Nephrogram قبل أن يبدأ التباين بالإفراز."
+},
+{
+    question: "13. The compression band in IVU is applied at:",
+    translation: "حزام الضغط في الـ IVU يُطبَّق في أي مرحلة؟",
+    options: ["A) Immediate film", "B) 5 minutes AP film", "C) 10 minutes AP film", "D) Post-voiding film"],
+    correct: 1, // B
+    explanation: "حزام الضغط يُطبَّق عند أخذ صورة الـ 5 دقائق على منطقة الحالبين لمنع تصريف التباين وتوسيع الجهاز الكيسي."
+},
+{
+    question: "14. The aim of the compression band during IVU is to:",
+    translation: "الهدف من حزام الضغط أثناء الـ IVU هو شنو؟",
+    options: ["A) Prevent contrast allergy", "B) Immobilize the patient", "C) Produce pelvicalyceal system (PCS) distension", "D) Protect the patient from radiation"],
+    correct: 2, // C
+    explanation: "حزام الضغط يهدف لإحداث توسع في الجهاز الكيسي والحوضي (PCS Distension)، مما يُظهر الكلى والحالبين بشكل أوضح."
+},
+{
+    question: "15. The 10-minute AP film in IVU is taken to visualize:",
+    translation: "صورة الـ 10 دقائق في الـ IVU تُؤخذ لإظهار شنو؟",
+    options: ["A) Nephrogram only", "B) Bladder emptying", "C) Distended PCS and ureters", "D) Renal arteries"],
+    correct: 2, // C
+    explanation: "صورة الـ 10 دقائق تُظهر الجهاز الكيسي والحوضي المتوسع (Distended PCS) والحالبين بشكل واضح بعد تطبيق حزام الضغط."
+},
+{
+    question: "16. The correct order of images in IVU is:",
+    translation: "ما هو الترتيب الصحيح للصور في الـ IVU؟",
+    options: ["A) 10 min film, then 5 min film, then immediate film", "B) Immediate film, then 5 min film, then 10 min film", "C) Post-voiding film first, then immediate film", "D) 5 min film first, then immediate film"],
+    correct: 1, // B
+    explanation: "الترتيب الصحيح هو: الصورة الفورية أولاً (Nephrogram)، ثم صورة 5 دقائق (تطبيق الحزام)، ثم صورة 10 دقائق (PCS وحالبات)."
+},
+{
+    question: "17. The post-voiding film in IVU is taken to assess:",
+    translation: "صورة ما بعد التبول في الـ IVU تُؤخذ لتقييم شنو؟",
+    options: ["A) Nephrogram", "B) Ureteral obstruction", "C) Bladder emptying in case of mass or prostatomegaly", "D) PCS distension"],
+    correct: 2, // C
+    explanation: "صورة ما بعد التبول تُقيّم مدى إفراغ المثانة، وهي مهمة للكشف عن بقايا البول في حالات تضخم البروستاتا أو الكتل المثانية."
+},
+{
+    question: "18. Before the post-voiding film in IVU, the patient is asked to:",
+    translation: "قبل صورة ما بعد التبول في الـ IVU، ماذا يُطلب من المريض؟",
+    options: ["A) Drink water", "B) Empty the bladder", "C) Apply compression band", "D) Hold breath"],
+    correct: 1, // B
+    explanation: "يُطلب من المريض إفراغ المثانة (Empty the Bladder) قبل أخذ الصورة، ثم تُؤخذ الصورة لتقييم ما تبقى من بول."
+},
+{
+    question: "19. One of the following is true regarding IVU technique:",
+    translation: "أي من الآتي صحيح بخصوص تقنية الـ IVU؟",
+    options: ["A) The patient is scanned in prone position", "B) Contrast is injected IV rapidly", "C) Oral contrast is given 30 minutes before", "D) No preliminary images are needed"],
+    correct: 1, // B
+    explanation: "في تقنية الـ IVU يتم حقن مادة التباين في الوريد وبسرعة لضمان وصولها للكلى بتركيز كافٍ لإظهار الجهاز البولي بوضوح."
+},
+{
+    question: "20. One of the following is true regarding the compression band in IVU:",
+    translation: "أي من الآتي صحيح بخصوص حزام الضغط في الـ IVU؟",
+    options: ["A) It is applied before contrast injection", "B) It is applied at the 5-minute film over the ureters", "C) It is used to visualize the nephrogram", "D) It is applied at the immediate film"],
+    correct: 1, // B
+    explanation: "حزام الضغط يُطبَّق عند صورة الـ 5 دقائق على منطقة الحالبين لمنع نزول التباين وإحداث توسع في الجهاز الكيسي والحوضي."
+},
+                ]
+                     
+            },
+            {
+                id: 5,
+                title: "محاضرة 7",
+                icon: "📒",
+                questions: [
+   
+ {
+    question: "1. One of the following is NOT a method of imaging the female reproductive system:",
+    translation: "أي من الآتي ليس طريقة لتصوير الجهاز التناسلي الأنثوي؟",
+    options: ["A) Hysterosalpingography (HSG)", "B) Radionuclide imaging", "C) Intravenous Urography (IVU)", "D) Ultrasonography"],
+    correct: 2, // C
+    explanation: "الـ IVU هو تصوير خاص بالجهاز البولي وليس التناسلي الأنثوي، لذا هو الاستثناء هنا."
+},
+{
+    question: "2. One of the following is NOT a method of imaging the male reproductive system:",
+    translation: "أي من الآتي ليس طريقة لتصوير الجهاز التناسلي الذكري؟",
+    options: ["A) Ultrasound", "B) MRI", "C) Hysterosalpingography (HSG)", "D) Radionuclide imaging"],
+    correct: 2, // C
+    explanation: "الـ HSG هو تصوير خاص بالرحم وقناتي فالوب عند الأنثى، ولا علاقة له بتصوير الجهاز التناسلي الذكري."
+},
+{
+    question: "3. HSG stands for:",
+    translation: "شنو يرمز له اختصار HSG؟",
+    options: ["A) Hepatic Splenic Graphy", "B) Hysterosalpingography", "C) Hepatobiliary Scintigraphy", "D) Hysteroscopic Guided imaging"],
+    correct: 1, // B
+    explanation: "HSG هو اختصار Hysterosalpingography، وهو تصوير الرحم وقناتي فالوب بحقن مادة التباين."
+},
+{
+    question: "4. Regarding HSG, one of the following is true:",
+    translation: "بخصوص الـ HSG، أي من الآتي صحيح؟",
+    options: ["A) It uses barium to visualize the kidneys", "B) It uses contrast medium to visualize the uterus and fallopian tubes", "C) It uses ultrasound waves to visualize the ovaries", "D) It uses MRI to visualize the uterine cavity"],
+    correct: 1, // B
+    explanation: "الـ HSG يستخدم مادة التباين اليودية لتصوير الرحم وقناتي فالوب تحت إشراف الفلوروسكوبي لتقييم الخصوبة."
+},
+{
+    question: "5. One of the following is an indication for HSG:",
+    translation: "أي من الآتي يُعد مؤشراً لإجراء الـ HSG؟",
+    options: ["A) Renal colic", "B) Hepatomegaly", "C) Fertility problems", "D) Portal hypertension"],
+    correct: 2, // C
+    explanation: "مشاكل الخصوبة (Fertility Problems) هي من أهم مؤشرات الـ HSG لتقييم سلامة الرحم وفتح قناتي فالوب."
+},
+{
+    question: "6. One of the following is an indication for HSG:",
+    translation: "أي من الآتي يُعد مؤشراً للـ HSG؟",
+    options: ["A) Abnormal liver function tests", "B) To visualize lesions such as tumors of the uterus", "C) Diurnal enuresis in children", "D) Suspected renal stone"],
+    correct: 1, // B
+    explanation: "تصوير الآفات مثل أورام الرحم هو مؤشر مهم للـ HSG لتقييم التجويف الرحمي وأي تغييرات في شكله."
+},
+{
+    question: "7. One of the following is NOT an indication for HSG:",
+    translation: "أي من الآتي ليس مؤشراً للـ HSG؟",
+    options: ["A) Fertility problems", "B) To visualize uterine tumors", "C) Renal obstruction", "D) Fallopian tube assessment"],
+    correct: 2, // C
+    explanation: "الانسداد الكلوي (Renal Obstruction) يخص الجهاز البولي وليس الجهاز التناسلي الأنثوي، لذا ليس مؤشراً للـ HSG."
+},
+{
+    question: "8. One of the following is a contraindication for HSG:",
+    translation: "أي من الآتي يُعد موانعاً لإجراء الـ HSG؟",
+    options: ["A) Infertility", "B) Menstruation", "C) Uterine fibroid", "D) Fallopian tube assessment"],
+    correct: 1, // B
+    explanation: "الدورة الشهرية (Menstruation) هي موانع للـ HSG لأن وجود الدم يمنع رؤية الرحم بوضوح ويزيد خطر الإنتان."
+},
+{
+    question: "9. One of the following is a contraindication for HSG:",
+    translation: "أي من الآتي يُعد موانعاً لإجراء الـ HSG؟",
+    options: ["A) Fertility problems", "B) Uterine tumor", "C) Pregnancy", "D) Abnormal menstrual cycle"],
+    correct: 2, // C
+    explanation: "الحمل (Pregnancy) هو من أهم موانع الـ HSG لأن الإشعاع ومادة التباين قد يضران بالجنين."
+},
+{
+    question: "10. One of the following is NOT a contraindication for HSG:",
+    translation: "أي من الآتي ليس موانعاً لإجراء الـ HSG؟",
+    options: ["A) Menstruation", "B) Pregnancy", "C) Genital tract infection", "D) Fertility problems"],
+    correct: 3, // D
+    explanation: "مشاكل الخصوبة (Fertility Problems) هي مؤشر لإجراء الـ HSG وليس موانعاً، بل هو السبب الرئيسي لطلب الفحص."
+},
+{
+    question: "11. Equipment used in HSG includes:",
+    translation: "الأجهزة المستخدمة في الـ HSG تشمل شنو؟",
+    options: ["A) Ultrasound probe and gel", "B) Fluoroscopy, vaginal speculum and catheter", "C) CT scanner and IV contrast", "D) MRI machine and Gadolinium"],
+    correct: 1, // B
+    explanation: "الـ HSG يحتاج جهاز الفلوروسكوبي للتصوير المباشر، والسبيكيولوم لفتح المهبل، والقسطرة لحقن مادة التباين في عنق الرحم."
+},
+{
+    question: "12. One of the following is NOT equipment used in HSG:",
+    translation: "أي من الآتي ليس من الأجهزة المستخدمة في الـ HSG؟",
+    options: ["A) Fluoroscopy", "B) Vaginal speculum", "C) Catheter", "D) Ultrasound probe"],
+    correct: 3, // D
+    explanation: "مسبار الإيكو لا يستخدم في الـ HSG، الذي يعتمد على الفلوروسكوبي والسبيكيولوم والقسطرة لحقن التباين."
+},
+{
+    question: "13. To avoid potential pregnancy during HSG, the examination should be performed between:",
+    translation: "لتجنب احتمال الحمل أثناء الـ HSG، متى يجب إجراء الفحص؟",
+    options: ["A) 1st and 3rd days of menstrual cycle", "B) 4th and 10th days of menstrual cycle", "C) 15th and 20th days of menstrual cycle", "D) Any day of the menstrual cycle"],
+    correct: 1, // B
+    explanation: "الـ HSG يُجرى بين اليوم الرابع والعاشر من الدورة الشهرية، بعد انتهاء الدورة وقبل حدوث التبويض لتجنب الحمل."
+},
+{
+    question: "14. One of the following is part of patient preparation for HSG:",
+    translation: "أي من الآتي يُعد جزءاً من تحضير المريضة للـ HSG؟",
+    options: ["A) Full urinary bladder", "B) Fasting for 12 hours", "C) Patient consent", "D) Shaving the abdomen"],
+    correct: 2, // C
+    explanation: "الحصول على موافقة المريضة (Patient Consent) ضروري قبل إجراء الـ HSG لأنه إجراء تداخلي يستلزم شرح المخاطر والفوائد."
+},
+{
+    question: "15. One of the following is part of patient preparation for HSG:",
+    translation: "أي من الآتي يُعد جزءاً من تحضير المريضة للـ HSG؟",
+    options: ["A) IV contrast injection before the procedure", "B) Analgesics", "C) Full urinary bladder", "D) Prone position before the procedure"],
+    correct: 1, // B
+    explanation: "المسكنات (Analgesics) تُعطى قبل الـ HSG لأن الإجراء قد يسبب تشنجات مؤلمة أثناء حقن التباين في الرحم."
+},
+{
+    question: "16. The patient position during HSG is:",
+    translation: "ما هي وضعية المريضة أثناء الـ HSG؟",
+    options: ["A) Prone", "B) Supine", "C) Lithotomy", "D) Left lateral decubitus"],
+    correct: 2, // C
+    explanation: "وضعية المريضة أثناء الـ HSG هي الـ Lithotomy (على الظهر مع رفع الرجلين)، وهي نفس وضعية الفحص النسائي."
+},
+{
+    question: "17. During HSG, the speculum is placed using:",
+    translation: "أثناء الـ HSG، السبيكيولوم يُوضع باستخدام شنو؟",
+    options: ["A) Iodinated contrast", "B) Sterile jelly", "C) Barium gel", "D) Normal saline"],
+    correct: 1, // B
+    explanation: "السبيكيولوم يُوضع باستخدام الجل المعقم (Sterile Jelly) لتسهيل إدخاله بدون إيذاء وللحفاظ على معايير التعقيم."
+},
+{
+    question: "18. During HSG, the catheter is inserted into:",
+    translation: "أثناء الـ HSG، القسطرة تُدخَل في أي مكان؟",
+    options: ["A) The fallopian tube directly", "B) The vaginal canal only", "C) The cervical canal", "D) The uterine fundus"],
+    correct: 2, // C
+    explanation: "القسطرة تُدخَل في قناة عنق الرحم (Cervical Canal) لحقن مادة التباين مباشرة في تجويف الرحم."
+},
+{
+    question: "19. During HSG, contrast medium is injected under:",
+    translation: "أثناء الـ HSG، مادة التباين تُحقن تحت إشراف شنو؟",
+    options: ["A) CT guidance", "B) MRI guidance", "C) Fluoroscopic guidance", "D) Ultrasound guidance"],
+    correct: 2, // C
+    explanation: "الـ HSG يُجرى تحت إشراف الفلوروسكوبي (Fluoroscopic Guidance) لمتابعة انتشار مادة التباين في الرحم والأنابيب بشكل مباشر."
+},
+{
+    question: "20. The correct order of HSG films is:",
+    translation: "ما هو الترتيب الصحيح لصور الـ HSG؟",
+    options: ["A) Spill, tubes filling, uterus full, uterus early filling", "B) Uterus early filling, uterus full, tubes filling, spill", "C) Tubes filling, uterus full, spill, uterus early filling", "D) Uterus full, tubes filling, uterus early filling, spill"],
+    correct: 1, // B
+    explanation: "الترتيب الصحيح: امتلاء الرحم المبكر، ثم امتلاء كامل، ثم امتلاء الأنابيب، ثم التسرب (Spill) خارج الأنابيب كدليل على فتحها."
+},
+{
+    question: "21. The last film taken during HSG is called:",
+    translation: "آخر صورة تُؤخذ أثناء الـ HSG تُسمى شنو؟",
+    options: ["A) Uterus early filling", "B) Uterus full", "C) Tubes filling", "D) Spill"],
+    correct: 3, // D
+    explanation: "آخر صورة هي الـ Spill، وهي تُظهر تسرب مادة التباين من نهاية قناتي فالوب إلى تجويف البطن كدليل على فتح القناتين."
+},
+{
+    question: "22. One of the following is a complication of HSG:",
+    translation: "أي من الآتي يُعد من مضاعفات الـ HSG؟",
+    options: ["A) Renal failure", "B) Liver abscess", "C) Infection", "D) Pneumothorax"],
+    correct: 2, // C
+    explanation: "الإنتان (Infection) هو من مضاعفات الـ HSG لأنه إجراء تداخلي يدخل عبر القناة التناسلية ويمكن أن ينقل الجراثيم."
+},
+{
+    question: "23. One of the following is a complication of HSG:",
+    translation: "أي من الآتي يُعد من مضاعفات الـ HSG؟",
+    options: ["A) Portal hypertension", "B) Catheter trauma", "C) Renal colic", "D) Hepatomegaly"],
+    correct: 1, // B
+    explanation: "أذى القسطرة (Catheter Trauma) من مضاعفات الـ HSG المحتملة لأن القسطرة تُدخَل في عنق الرحم وقد تسبب تهيجاً أو نزفاً."
+},
+{
+    question: "24. One of the following is NOT a complication of HSG:",
+    translation: "أي من الآتي ليس من مضاعفات الـ HSG؟",
+    options: ["A) Infection", "B) Catheter trauma", "C) Bleeding", "D) Renal failure"],
+    correct: 3, // D
+    explanation: "الفشل الكلوي (Renal Failure) لا علاقة له بالـ HSG الذي يُجرى على الجهاز التناسلي الأنثوي وليس الكلى."
+},
+{
+    question: "25. Aftercare following HSG includes:",
+    translation: "الرعاية بعد الـ HSG تشمل شنو؟",
+    options: ["A) IV fluids for 24 hours", "B) Bed rest for one week", "C) Antibiotics", "D) Repeat fluoroscopy after 24 hours"],
+    correct: 2, // C
+    explanation: "تُعطى المضادات الحيوية (Antibiotics) بعد الـ HSG للوقاية من الإنتان الذي قد ينشأ بعد الإجراء التداخلي."
+},
+                ]
+                     
+            },
+            {
+                id: 7,
+                title: "دواعي وموانع الاستعمال",
+                icon: "💢",
+                questions: [
+   
+ {
+    question: "1. Which of the following is an indication for Liver Ultrasound?",
+    translation: "أي من الآتي يُعد مؤشراً لإيكو الكبد؟",
+    options: ["A) Fertility problems", "B) Portal hypertension", "C) Genital tract infection", "D) Menstruation"],
+    correct: 1, // B
+    explanation: "ارتفاع ضغط الوريد البابي (Portal Hypertension) مؤشر مهم لإيكو الكبد لتقييم حجمه وتدفق الدم، بينما الخيارات الأخرى تخص أجهزة أخرى."
+},
+{
+    question: "2. Assessment of liver vessels is a specific indication for:",
+    translation: "تقييم أوعية الكبد هو مؤشر خاص لأي تصوير؟",
+    options: ["A) IVU", "B) HSG", "C) Liver CT", "D) Liver MRI"],
+    correct: 2, // C
+    explanation: "الـ CT الكبد هو الأفضل لتقييم الأوعية الكبدية لأنه يعطي تفاصيل دقيقة عن الشرايين والأوردة في مراحل التصوير المختلفة."
+},
+{
+    question: "3. To characterize a liver lesion after it was first detected by CT, we use:",
+    translation: "لتوصيف آفة كبدية اكتُشفت أولاً بالـ CT، نستخدم شنو؟",
+    options: ["A) Liver Ultrasound", "B) MRI of the liver", "C) IVU", "D) HSG"],
+    correct: 1, // B
+    explanation: "الـ MRI هو الأفضل لتوصيف الآفات الكبدية بعد اكتشافها بالـ CT، لأنه يعطي معلومات أكثر دقة عن طبيعة الآفة وتركيبها."
+},
+{
+    question: "4. One of the following is a common indication for both Liver US and Liver CT:",
+    translation: "أي من الآتي يُعد مؤشراً مشتركاً لكل من إيكو الكبد والـ CT؟",
+    options: ["A) Diurnal enuresis", "B) Hepatomegaly", "C) Infertility", "D) Ureters obstruction"],
+    correct: 1, // B
+    explanation: "تضخم الكبد (Hepatomegaly) هو مؤشر مشترك لكل من الإيكو والـ CT لتقييم حجم الكبد وبنيته والبحث عن سبب التضخم."
+},
+{
+    question: "5. Guided percutaneous procedures in the liver can be performed using:",
+    translation: "الإجراءات عبر الجلد في الكبد يمكن إجراؤها بتوجيه شنو؟",
+    options: ["A) HSG", "B) IVU", "C) Liver Ultrasound", "D) Liver MRI"],
+    correct: 2, // C
+    explanation: "إيكو الكبد يُستخدم لتوجيه الإجراءات التداخلية كالخزعة وتصريف الخراجات لأنه يعطي صوراً لحظية ومباشرة بدون إشعاع."
+},
+{
+    question: "6. Regarding HSG, one of the following is a CONTRAINDICATION:",
+    translation: "بخصوص الـ HSG، أي من الآتي يُعد موانعاً لإجرائه؟",
+    options: ["A) Hepatomegaly", "B) Pregnancy", "C) Jaundice", "D) Portal hypertension"],
+    correct: 1, // B
+    explanation: "الحمل (Pregnancy) هو موانع مطلقة للـ HSG لأن الإشعاع ومادة التباين يمكن أن يضرا بالجنين."
+},
+{
+    question: "7. The primary purpose of IVU is to visualize:",
+    translation: "الهدف الرئيسي من الـ IVU هو تصوير شنو؟",
+    options: ["A) Liver lesions", "B) Uterus and fallopian tubes", "C) Urinary tract", "D) Biliary tree vessels"],
+    correct: 2, // C
+    explanation: "الهدف الرئيسي للـ IVU هو تصوير الجهاز البولي كاملاً (الكلى والحالبين والمثانة) بعد حقن مادة التباين في الوريد."
+},
+{
+    question: "8. Which procedure requires warning the patient about 'spotting' as part of aftercare?",
+    translation: "أي إجراء يستلزم تحذير المريضة من النزيف الخفيف كجزء من الرعاية اللاحقة؟",
+    options: ["A) Liver CT", "B) IVU", "C) HSG", "D) Liver US"],
+    correct: 2, // C
+    explanation: "الـ HSG قد يسبب نزيفاً خفيفاً (Spotting) بعد الإجراء بسبب التلاعب بعنق الرحم، لذا يجب تحذير المريضة مسبقاً."
+},
+{
+    question: "9. Diurnal enuresis in children is an indication for:",
+    translation: "التبول اللاإرادي النهاري عند الأطفال هو مؤشر لأي تصوير؟",
+    options: ["A) Liver MRI", "B) IVU", "C) Liver CT", "D) HSG"],
+    correct: 1, // B
+    explanation: "التبول اللاإرادي النهاري عند الأطفال يستلزم الـ IVU لاستبعاد أي تشوه خلقي أو انسداد في الجهاز البولي."
+},
+{
+    question: "10. One of the following is a complication of Hysterosalpingography (HSG):",
+    translation: "أي من الآتي يُعد من مضاعفات الـ HSG؟",
+    options: ["A) Jaundice", "B) Portal hypertension", "C) Catheter trauma", "D) Hepatomegaly"],
+    correct: 2, // C
+    explanation: "أذى القسطرة (Catheter Trauma) من المضاعفات المحتملة للـ HSG، إذ قد تسبب القسطرة تهيجاً أو نزفاً في عنق الرحم."
+},
+{
+    question: "11. Contrast medium and radiation are contraindications for:",
+    translation: "مادة التباين والإشعاع هما موانع خاصة بأي تصوير؟",
+    options: ["A) Liver Ultrasound", "B) MRI of the liver", "C) IVU", "D) Liver biopsy"],
+    correct: 2, // C
+    explanation: "موانع الـ IVU مرتبطة بمادة التباين اليودية (الحساسية وقصور الكلى) وبالإشعاع (الحمل)، وهذان العاملان هما الأساس."
+},
+{
+    question: "12. To visualize the fallopian tubes, the doctor should order:",
+    translation: "لتصوير قناتي فالوب، الطبيب يطلب أي فحص؟",
+    options: ["A) IVU", "B) HSG", "C) Liver CT", "D) Liver US"],
+    correct: 1, // B
+    explanation: "الـ HSG هو الفحص الوحيد الذي يُظهر قناتي فالوب بوضوح عن طريق حقن مادة التباين في الرحم ومتابعة تدفقها."
+},
+{
+    question: "13. Focal or diffuse liver lesions are primary indications for:",
+    translation: "الآفات الكبدية البؤرية أو المنتشرة هي مؤشر أساسي لأي تصوير؟",
+    options: ["A) IVU only", "B) HSG only", "C) Liver Ultrasound", "D) Only MRI"],
+    correct: 2, // C
+    explanation: "الآفات الكبدية سواء بؤرية أو منتشرة هي من المؤشرات الرئيسية لإيكو الكبد كأول خطوة لتقييمها."
+},
+{
+    question: "14. Which of the following is NOT an indication for Liver CT?",
+    translation: "أي من الآتي ليس مؤشراً لـ CT الكبد؟",
+    options: ["A) Suspected liver lesion", "B) Assessment of liver vessels", "C) Diurnal enuresis", "D) Hepatomegaly"],
+    correct: 2, // C
+    explanation: "التبول اللاإرادي النهاري (Diurnal Enuresis) هو مؤشر للـ IVU وليس لـ CT الكبد، لأنه يخص الجهاز البولي."
+},
+{
+    question: "15. The use of antibiotics as aftercare is specifically mentioned for:",
+    translation: "إعطاء المضادات الحيوية كرعاية لاحقة هو خاص بأي إجراء؟",
+    options: ["A) Liver Ultrasound", "B) HSG", "C) Liver MRI", "D) IVU"],
+    correct: 1, // B
+    explanation: "المضادات الحيوية تُعطى بعد الـ HSG للوقاية من الإنتان الذي قد ينتج عن الإجراء التداخلي في قناة التناسل."
+},
+{
+    question: "16. Jaundice is a clinical indication to perform:",
+    translation: "اليرقان (Jaundice) هو مؤشر سريري لإجراء أي تصوير؟",
+    options: ["A) HSG", "B) Liver Ultrasound", "C) IVU", "D) Uterine biopsy"],
+    correct: 1, // B
+    explanation: "اليرقان مؤشر مهم لإيكو الكبد لتقييم الكبد والقنوات الصفراوية والبحث عن سبب اليرقان كالحصوات أو الأورام."
+},
+{
+    question: "17. Which modality is best for 'Lesion characterization' specifically?",
+    translation: "أي تصوير هو الأفضل لتوصيف الآفات بشكل خاص؟",
+    options: ["A) Ultrasound", "B) CT scan", "C) MRI", "D) IVU"],
+    correct: 2, // C
+    explanation: "الـ MRI هو الأفضل لتوصيف الآفات (Lesion Characterization) لأنه يعطي معلومات دقيقة عن تركيب الأنسجة وطبيعتها."
+},
+{
+    question: "18. Visualizing the uterus using contrast medium defines:",
+    translation: "تصوير الرحم باستخدام مادة التباين هو تعريف لأي إجراء؟",
+    options: ["A) IVU", "B) Liver CT", "C) HSG", "D) MRCP"],
+    correct: 2, // C
+    explanation: "الـ HSG هو بالتعريف تصوير الرحم وقناتي فالوب عن طريق حقن مادة التباين اليودية في تجويف الرحم تحت الفلوروسكوبي."
+},
+{
+    question: "19. Hepatic trauma is an indication for:",
+    translation: "رضح الكبد (Hepatic Trauma) هو مؤشر لأي تصوير؟",
+    options: ["A) HSG", "B) IVU", "C) Liver Ultrasound", "D) Biliary MRI"],
+    correct: 2, // C
+    explanation: "رضح الكبد هو مؤشر لإيكو الكبد لتقييم وجود دم أو تمزق في الكبد بسرعة وبدون إشعاع كخطوة أولى في الطوارئ."
+},
+{
+    question: "20. One of these is NOT a contraindication for HSG:",
+    translation: "أي من الآتي ليس موانعاً للـ HSG؟",
+    options: ["A) Pregnancy", "B) Genital tract infection", "C) Menstruation", "D) Abnormal liver function tests"],
+    correct: 3, // D
+    explanation: "اختلال وظائف الكبد لا علاقة له بالـ HSG الذي يخص الجهاز التناسلي الأنثوي، لذا ليس موانعاً لإجرائه."
+},
+{
+    question: "21. To facilitate needle placement for biopsy, we can use:",
+    translation: "لتوجيه الإبرة أثناء أخذ الخزعة، نستخدم شنو؟",
+    options: ["A) IVU", "B) HSG", "C) Liver CT", "D) MRI only"],
+    correct: 2, // C
+    explanation: "الـ CT الكبد يُستخدم لتوجيه إبرة الخزعة بدقة عالية، مما يضمن أخذ العينة من المنطقة الصحيحة وبأمان تام."
+},
+{
+    question: "22. Infection is a potential complication of:",
+    translation: "الإنتان هو مضاعفة محتملة لأي إجراء؟",
+    options: ["A) Liver Ultrasound", "B) HSG", "C) Liver MRI (Non-contrast)", "D) External palpation"],
+    correct: 1, // B
+    explanation: "الإنتان من مضاعفات الـ HSG لأنه إجراء تداخلي يدخل عبر الجهاز التناسلي مما يزيد خطر انتقال الجراثيم."
+},
+{
+    question: "23. Abnormal liver function tests indicate the need for:",
+    translation: "اختلال وظائف الكبد يستدعي إجراء شنو؟",
+    options: ["A) IVU", "B) HSG", "C) Liver Ultrasound or CT", "D) Only HSG"],
+    correct: 2, // C
+    explanation: "اختلال وظائف الكبد يستدعي إما إيكو الكبد أو الـ CT لتقييم بنية الكبد والبحث عن سبب الاختلال."
+},
+{
+    question: "24. Visualizing the urinary tract using IV contrast injection is the definition of:",
+    translation: "تصوير الجهاز البولي عن طريق حقن التباين الوريدي هو تعريف لأي فحص؟",
+    options: ["A) HSG", "B) IVU", "C) Liver CT", "D) Liver MRI"],
+    correct: 1, // B
+    explanation: "الـ IVU بالتعريف هو تصوير الجهاز البولي عن طريق حقن مادة التباين في الوريد ومتابعة إفرازها عبر الكلى والجهاز البولي."
+},
+{
+    question: "25. 'Spotting and pain' are expected after:",
+    translation: "النزيف الخفيف والألم متوقعان بعد أي إجراء؟",
+    options: ["A) Liver Ultrasound", "B) IVU", "C) HSG", "D) Liver CT"],
+    correct: 2, // C
+    explanation: "النزيف الخفيف والألم (Spotting and Pain) من الأعراض المتوقعة بعد الـ HSG بسبب التلاعب بعنق الرحم والتشنجات."
+},
+{
+    question: "26. One of the following is NOT related to the biliary tree or liver imaging:",
+    translation: "أي من الآتي لا علاقة له بتصوير الكبد أو الشجرة الصفراوية؟",
+    options: ["A) HSG", "B) Liver US", "C) Liver CT", "D) Liver MRI"],
+    correct: 0, // A
+    explanation: "الـ HSG خاص بتصوير الرحم وقناتي فالوب ولا علاقة له بالكبد أو القنوات الصفراوية إطلاقاً."
+},
+{
+    question: "27. If a patient has fertility problems, the most relevant test is:",
+    translation: "إذا كانت المريضة تعاني من مشاكل الخصوبة، أي فحص هو الأنسب؟",
+    options: ["A) Liver US", "B) IVU", "C) HSG", "D) Liver CT"],
+    correct: 2, // C
+    explanation: "الـ HSG هو الفحص الأنسب لمشاكل الخصوبة لأنه يُظهر تجويف الرحم وقناتي فالوب ومدى فتحهما للتحقق من إمكانية الإخصاب."
+},
                 ]
             }
         ];
